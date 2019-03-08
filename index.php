@@ -101,7 +101,7 @@
 					</div>
 				</div>
 				<p>HTML/CSS</p> -->
-				<div style="width: 50%; height: 50%; padding-bottom: 25px;" align="center">
+				<div style="width: 50%; height: 50%; padding-bottom: 25px;margin-left: 20%" align="center">
 					<canvas id="myChartjs">
 
 					</canvas>
@@ -152,9 +152,11 @@
 						<p>Developer</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 					</div>
-					
+
 				</div>
+				<input style="margin-left: 65%;border: 1px solid red; padding:10px 10px; width: 200px" type="submit" name="WORK EXPERIENCE" value="Add WORK EXPERIENCE">
 			</div>
+
 			<div class="EDUCATION-margin-right">
 				<h2>EDUCATION</h2>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
@@ -175,7 +177,9 @@
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 					</div>
 				</div>
+				<input style="margin-left: 65%;border: 1px solid red; padding:10px 10px; width: 200px" type="submit" name="WORK EXPERIENCE" value="Add WORK EXPERIENCE">
 			</div>
+
 			<div class="clearfix"></div>
 		</div>
 	</div>

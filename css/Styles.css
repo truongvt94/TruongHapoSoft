@@ -44,6 +44,7 @@ ul li a:hover{
 	position: relative;
 }
 .header-left-text{
+	width: 100%;
 	margin-top: -170px;
 	margin-left: 160px;
 	color: #FFFFFF;
@@ -84,11 +85,11 @@ ul li a:hover{
 	height: 25px;
 }
 .header-right .line{
-	width: 380px;
+	width: 400px;
 	margin-bottom: 15px;
 	height: 0px;
-	margin-left: 150px;
-	border: 1px solid red;
+	margin-left: 133px;
+	border: 1px solid #F64C71;
 }
 .PROFESSIONAL{
 	width: 100%;
@@ -169,11 +170,11 @@ ul li a:hover{
 	margin-left: -45px;
     padding-top: 40%;
 }*/
-.Skill-left-mazu .HTML{
+/*.Skill-left-mazu .HTML{
 	
-}
-
+}*/
 .EXPERIENCE{
+	padding-bottom:30px;
 	width: 100%;
 	height: auto;
 	background: #F64C71;

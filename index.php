@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.theme.green.min.css">
 	<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
-	
+	<link rel="stylesheet" href="css/circle.css">
 </head>
 <body>
 	<div class="header1">
@@ -102,11 +102,60 @@
 					</div>
 				</div>
 				<p>HTML/CSS</p> -->
-				<div class="canvas" align="center">
+				<!-- <div class="canvas" align="center">
 					<canvas id="myChartjs">
 
 					</canvas>
-				</div>	
+				</div>	 -->
+				<div class="page">
+					<!-- default -->
+					<div class="clearfix">
+						<div class="c100 p25 khoangcach">
+							<span>25%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<div class="c100 p25 khoangcach">
+							<span>25%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<div class="c100 p25 khoangcach">
+							<span>25%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<div class="c100 p25 khoangcach">
+							<span>25%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<div class="c100 p25 khoangcach">
+							<span>25%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<div class="c100 p25 khoangcach">
+							<span>25%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
 			</div>
 			<div class="Skills-right">
 				<h1>Personal Skills</h1>
@@ -340,6 +389,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="footer">
 		<p> 2019 Flatos.com All right reserved.</p>
 	</div>

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Thuc Hanh HTML, CSS, JS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/Styles.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.theme.green.min.css">
@@ -12,7 +13,7 @@
 	<div class="header1">
 		<div class="header-left">
 			<div class="header-left-img">
-				<img src="images/shashin.png" title="imgage">
+				<img src="images/Rectangle.png" title="imgage">
 			</div>
 			<div class="header-left-text">
 				<h1>BUMBLEBEE WALKER</h1>
@@ -28,7 +29,7 @@
 				</ul>
 			</div>
 			<div class="DD-tron" align="center">
-				<img src="images/Untitled1.png" title="avatar">
+				<img src="images/Rectangle.png" title="avatar">
 			</div>
 			
 			<!-- <div class="icon">
@@ -131,7 +132,7 @@
 		</div>
 	</div>
 
-	<div class="EXPERIENCE" style="color: black">
+	<div class="EXPERIENCE">
 		<div class="EXPERIENCE-margin">
 			<div class="EXPERIENCE-margin-left">
 				<h2>WORK EXPERIENCE</h2>

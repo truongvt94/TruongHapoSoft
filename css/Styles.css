@@ -58,12 +58,16 @@ ul li a:hover{
 	width: 50%;
 	float: left;
 }
-.header-right .Bumble{
+
+.header-right
+.Bumble {
 	clear: both;
 	text-align: center;
 }
+
 .DD-tron img{
 	width: 150px;
+	height: 150px;
 	clear: both;
 	border: 1px #d4d4d4 solid;
 	padding: 7px;

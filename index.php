@@ -17,7 +17,7 @@
 			</div>
 			<div class="header-left-text">
 				<h1>BUMBLEBEE WALKER</h1>
-				<p style="width: 150px;border: 1px solid red;"></p>
+				<p class="pBumble"></p>
 				<p>Ruby on Rail Developer</p>
 			</div>
 		</div>
@@ -75,7 +75,7 @@
 					</table>
 				</form>
 				<div class="btn" align="center">
-					<input style="border: 1px solid red; padding: 8px 8px;margin-top: 15px;" type="submit" name="" value="Edit Profile">
+					<input class="btnEditPR" type="submit" name="" value="Edit Profile">
 				</div>
 			</div>
 		</div>
@@ -86,7 +86,7 @@
 			<h1>PROFESSIONAL SUMMARY</h1>
 			<p class="line2"></p>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol.</p>
-			<input style="border: 1px solid red; padding: 8px 8px;margin-top: 8px;margin-left: 90%;" type="submit" name="" value="Edit Summary">
+			<input class="btnEditSumary" type="submit" name="" value="Edit Summary">
 		</div>
 	</div>
 
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 				<p>HTML/CSS</p> -->
-				<div style="width: 50%; height: 50%; padding-bottom: 25px;margin-left: 20%" align="center">
+				<div class="canvas" align="center">
 					<canvas id="myChartjs">
 
 					</canvas>
@@ -125,7 +125,7 @@
 					<div class="skills teamW2">60%</div>
 				</div>
 				<div class="Skills-right-btn">
-					<input style="border: 1px solid red; padding: 10px 10px;margin-top: 8px;float: right;" type="submit" name="AddSkill" value="Add Skill">
+					<input class="addSkils" type="submit" name="AddSkill" value="Add Skill">
 				</div>
 			</div>
 			<div class="clearfix"></div>

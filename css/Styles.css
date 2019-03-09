@@ -1,4 +1,4 @@
-body{
+body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -9,51 +9,78 @@ body{
 	letter-spacing: 0.05em;
 }
 
-ul li{
+ul li {
 	list-style-type: none;
 	margin-right: 35px;
 	float: left;
 }
-ul li a{
+
+ul li a {
 	text-decoration: none;
 	font-size: 14px;
 	color: #FFFFFF;
 }
-ul li a:hover{
+
+.pBumble {
+	width: 150px;
+	border: 1px solid red;
+}
+
+.btnEditPR {
+	padding: 8px 8px;
+	border: 1px solid red;
+	margin-top: 15px;
+}
+
+.btnEditSumary {
+	border: 1px solid red;
+	padding: 8px 8px;
+	margin-top: 8px;
+	margin-left: 90%;
+}
+
+ul li a:hover {
 	font-size: 16px;
 	text-decoration: underline;
 	font-weight: bold;
 }
-.menu{
+
+.menu {
 	width: 100%;
 	float: left;
 	margin-top: 5px;
 	margin-left: 235px;
 	margin-bottom: 15px;
 }
-.header1{
+
+.header1 {
 	width: 100%;
 	height: 600px;
 	background: #242581;
 }
-.header-left{
+
+.header-left {
 	width: 50%;
 	float: left;
 }
-.header-left-img img{
+
+.header-left-img img {
 	position: relative;
 }
-.header-left-text{
+
+.header-left-text {
 	width: 100%;
 	margin-top: -170px;
 	margin-left: 160px;
 	color: #FFFFFF;
 	position: absolute;
 }
-.header-left-img img{
+
+.header-left-img img {
 	width: 100%;
 	height: 595px;
 }
+
 .header-right{
 	width: 50%;
 	float: left;
@@ -65,7 +92,7 @@ ul li a:hover{
 	text-align: center;
 }
 
-.DD-tron img{
+.DD-tron img {
 	width: 150px;
 	height: 150px;
 	clear: both;
@@ -81,87 +108,122 @@ ul li a:hover{
 	position: absolute;
 	background: green;
 }*/
-.icon img{
+.icon img {
 	position: absolute;
 	margin-left:335px;
 	margin-top: -50px;
 	width:25px;
 	height: 25px;
 }
-.header-right .line{
+
+.header-right 
+.line {
 	width: 400px;
 	margin-bottom: 15px;
 	height: 0px;
 	margin-left: 133px;
 	border: 1px solid #F64C71;
 }
-.PROFESSIONAL{
+
+.PROFESSIONAL {
 	width: 100%;
 	margin-top:-21px;
 	background-color: #2026B2;
 }
-.PROFESSIONAL-margin{
+
+.PROFESSIONAL-margin {
 	width: 90%;
 	margin: 0 auto;
 }
-.PROFESSIONAL h1{
+
+.PROFESSIONAL h1 {
 	clear: both;
 	padding-top: 50px;
 }
-.PROFESSIONAL p{
+
+.canvas {
+	width: 50%; 
+	height: 50%;
+	padding-bottom: 25px;
+	margin-left: 20%;
+}
+
+.addSkils {
+	border: 1px solid red; 
+	padding: 10px 10px;
+	margin-top: 8px;
+	float: right;
+}
+
+.PROFESSIONAL p {
 	text-align: justify;
 }
-.line1{
+
+.line1 {
 	width: 50px;
 	border: 1px solid red;
 }
-.line2{
+
+.line2 {
 	width: 200px;
+	margin-top: -15px;
 	border: 1px solid red;
 }
-.Skills{
+
+.Skills {
 	width: 100%;
 	clear: both;
 	background-color: #4A0F73;
 	
 }
 
-.Skills-margin{
+.Skills-margin {
 	width: 90%;
 	margin:0 auto;
 	background-color: #4A0F73;
 }
-.Skills-left{
+
+.Skills-left {
 	width: 50%;
 	float: left;
 }
-.Skills-right{
+
+.Skills-right {
 	width: 50%;
 	float: left;
 }
-.Skills-right-to{
+
+.Skills-right-to {
 	width: 100%;
 	border-radius:5% 5% 5% 5%;
 	background: yellow;
 }
-.Skills-right-to .skills{
+.Skills-right-to 
+.skills {
 	text-align: right;
 	padding: 0px;
 	color: white;
 }
-.Skills-right-to .teamW{
+
+.Skills-right-to 
+.teamW {
 	width: 80%;
 	background: blue;
 }
-.Skills-right-to .teamW1{
+
+.Skills-right-to 
+.teamW1 {
 	width: 70%;
 	background: blue;
 }
-.Skills-right-to .teamW2{
+
+.Skills-right-to 
+.teamW2 {
 	width: 60%;
 	background: blue;
 }
-.Skill-left-mazu{
+
+.Skill-left-mazu {
 	width: 150px;
 	height: 150px;
 	background: #4A0F73;
@@ -177,21 +239,26 @@ ul li a:hover{
 /*.Skill-left-mazu .HTML{
 	
 }*/
-.EXPERIENCE{
+.EXPERIENCE {
 	padding-bottom:30px;
 	width: 100%;
 	height: auto;
 	background: #F64C71;
 }
-.EXPERIENCE-margin{
+
+.EXPERIENCE-margin {
 	width: 90%;
 	margin: 0 auto;
 }
-.EXPERIENCE-margin .EXPERIENCE-margin-left{
+
+.EXPERIENCE-margin 
+.EXPERIENCE-margin-left {
 	width: 50%;
 	float: left;
 }
-.EXPERIENCE-margin .EDUCATION-margin-right{
+
+.EXPERIENCE-margin 
+.EDUCATION-margin-right {
 	width: 50%;
 	float:left;
 }
@@ -208,6 +275,7 @@ ul li a:hover{
 	margin-bottom: 10px;
 	z-index: 9
 }
+
 .khoi:before {
 	content: '';
 	position: absolute;
@@ -218,6 +286,7 @@ ul li a:hover{
 	border-left: 1px solid #CDCDCD;
 
 }
+
 .khoi:after {
 	content: '';
 	position: absolute;
@@ -228,6 +297,7 @@ ul li a:hover{
 	border-top: 1px solid red;
 	margin-left: 10px;
 }
+
 .item:before {
 	content: '';
 	position: absolute;
@@ -238,6 +308,7 @@ ul li a:hover{
 	border-top: 1px solid red;
 	z-index: 1;
 }
+
 .item:after {
 	content: '';
 	position: absolute;
@@ -250,33 +321,39 @@ ul li a:hover{
 	border-left: 6px solid black;
 	z-index: 999999999999999999999999999999999999999999999
 }
-.addClasspor{
+
+.addClasspor {
 	background: white;
 }
-.portfolio{
+
+.portfolio {
 	width:100%;
 	height: auto;
 	padding-top:10px;
 	background: #563D67;
 
 }
-.portfolio .portfolio-margin{
+
+.portfolio .portfolio-margin {
 	width: 90%;
 	height: auto;
 	margin:0 auto;
 }
-.imageRow{
+
+.imageRow {
 	display: flex;
 	padding: 0px 4px;
 	clear: both;
 	padding-bottom: 25px;
 }
-.column{
+
+.column {
 	flex: 24%;
 	max-width: 24%;
 	padding: 0 4px;
 }
-.column img{
+
+.column img {
 	margin-top: 8px;
   	vertical-align: middle;
 }
@@ -284,40 +361,48 @@ ul li a:hover{
 .menu1 ul li a{
 	font-size: 20px;
 }
-.myChartjs{
+
+.myChartjs {
 	padding-bottom: 25px;
 }
-.references{
+
+.references {
 	width: 100%;
 	margin-top: -21px;
 	padding-bottom:15px;
 	background: #2F2FA1;
 }
-.references .references-margin{
+
+.references .references-margin {
 	width: 90%;
 	height: auto;
 	margin:0 auto;
 }
-.references-margin .flo{
+
+.references-margin .flo {
 	float: left;
 }
-.references-margin .flo1{
+
+.references-margin .flo1 {
 	float: left;
 	width: 20%;
 	padding-left: 100px;
 }
-.references-margin .flo1 img{
+
+.references-margin .flo1 img {
 	width: 20%;
 	width: 50px;
 	height: 200px;
 }
-.references-margin .flo2{
+
+.references-margin .flo2 {
 	float: left;
     padding-left: 80px;
     padding-top: 30px;
     width: 60%;
 }
-.project{
+
+.project {
 	width: 100%;
 	height: auto;
 	padding-bottom: 25px;
@@ -325,29 +410,39 @@ ul li a:hover{
 	clear: both;
 	margin: 0 auto;
 }
-.project .project-skill{
+
+.project .project-skill {
 	width: 25%;
 	height: 600px;
 	float: left;
 }
-.project .project-skill .project-skill-1{
+
+.project .project-skill 
+.project-skill-1 {
 	width: 100%;
 	height: 200px;
 }
-.project .project-skill .images1 img{
+
+.project .project-skill 
+.images1 img {
 	padding-top: 10%;
 }
-.project .project-skill .images2 img{
+
+.project .project-skill 
+.images2 img {
 	padding-top: 30%;
 	width: 222px;
 	height: 200px;
 
 }
-.project .project-skill .project-skill-4{
+
+.project .project-skill 
+.project-skill-4 {
 	width: 100%;
 	height: 400px;
 }
-.footer{
+
+.footer {
 	width: 100%;
 	margin-top: -18px;
 	text-align: center;
@@ -355,6 +450,7 @@ ul li a:hover{
 	background: #0C0C5E;
 	height: 50px;
 }
+
 .clearfix {
 	display: block;
 	clear: both;

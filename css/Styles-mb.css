@@ -1,5 +1,290 @@
-@media (max-width: 575.98px) {
-//Danh cho cac thiet bi lon nhat la 575.98px
+@media (max-width: 575px) {
+	p .pBumble {
+		width: 50px;
+	}
+
+	.header-left-text
+	.ruby {
+		margin-top: 16px;
+	}
+
+	.header1 {
+		height: 800px;
+	}
+
+	.khoangcach {
+		margin: 25px 8%;
+	}
+
+	.header-left {
+		width: 100%;
+	}
+
+	.references-margin .flo2 {
+		float: left;
+		padding-left: 0%;
+		padding-top: 0%;
+		width: 100%;
+	}
+
+	.header-left img {
+		position: relative;
+		width: 100%;
+		height: 300px;
+	}
+
+	.header-left-text {
+		display: inline;
+		width: 80%;
+		position: absolute;
+		margin-top: -205px;
+	}
+
+	.header-left-text
+	.pBumble {
+		margin-top: -15px;
+		margin-bottom: -10px;
+	}
+	.header-right {
+		width: 100%;
+	}
+
+	.references-margin .flo2 {
+		padding: 0px 0px;
+		width: 100%;
+	}
+
+	.references-margin .flo1 {
+		float: left;
+		width: 20%;
+	}
+
+	.DD-tron img {
+		margin-top: -90px;
+	}
+
+	.Bumble h2 {
+		text-align: center;
+	}
+
+	.Bumble p {
+		text-align: center;
+	}
+
+	.header-right 
+	.line {
+		width: 82%;
+		margin: 0 auto;
+	}
+
+	.PROFESSIONAL-margin h1 {
+		font-size: 16px;
+		margin-left:0%;
+	}
+
+	.btnEditSumary {
+		margin-left: 0%;
+	}
+
+	.Skills-left {
+		width: 100%;
+	}
+
+	.Skills-left h1 {
+		font-size: 16px;
+	}
+
+	.Skills-left p {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 14px;
+		text-align: justify;
+	}
+
+	.Skills-right p {
+		font-size: 14px;
+	}
+
+	.Skills-left h1 {
+		text-align: justify;
+	}
+
+	.Skills-right {
+		clear: both;
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.btnskill1 {
+		clear: both;
+	}
+
+	.btnskill {
+		width: 68%;
+	}
+	.addProject {
+		margin-left: 0%;
+	}
+
+	.btnAddChart1 {
+		margin-left: 0%;
+		margin-bottom: 25px;
+	}
+
+	.EXPERIENCE-margin 
+	.EXPERIENCE-margin-left {
+		width: 100%;
+	}
+
+	.btnAddEXPERIENCE {
+		margin-left: 0%;
+	}
+
+	.EXPERIENCE-margin 
+	.EDUCATION-margin-right {
+		width: 100%;
+	}
+
+	.portfolio .portfolio-margin {
+		width: 100%;
+	}
+
+	.btnAddChart {
+
+	}
+
+	.khoi {
+		padding-right: 5px;
+	}
+
+	.menu1 ul li a {
+		font-size: 13px;
+	}
+
+	.portfolio-margin h1 {
+		margin-left: 15px;
+	}
+
+	.addImg  {
+		width: 130%;
+		margin-left: -300%;
+	}
+
+	.c100 {
+		
+	}
+
+	.project {
+		width: 50%;
+	}
+	.menu {
+		position: absolute;
+		top: 10px;
+	}
+
+	.references-margin 
+	.flo1 img {
+		margin-top: 0%;
+		margin-right: 0px;
+		left: 100%;
+		display: flex;
+	}
+
+	.header-right
+	.Bumble p {
+		font-family: 'Poppins';
+	}
+
+	.references-margin .flo1 {
+		width: 25%;
+	}
+
+	.sub
+	.sub-25 {
+		width: 50%;
+	}
+
+	.sub
+	.sub-25
+	.sub-25-150 img {
+		width: 100%;
+	}
+
+	.sub
+	.sub-25
+	.sub-25-100 {
+		height: 200px;
+		line-height: 20;
+	}
+
+	.sub
+	.sub-25
+	.sub-25-150 {
+		width: 100%;
+		height: 400px;
+		line-height: 38;
+	}
+
+	.sub {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.addPJ {
+		display: block;
+		margin-left: 37%;
+		margin-top: 15px;
+		float: left;
+	}
+
+	.references-margin-K80 
+	.references-margin-K80-text {
+		width: 100%;
+		float: none;
+	}
+
+	.references-margin-K80 
+	.references-margin-K80-avarta {
+		width: 100%;
+	}
+
+	.references-margin-K80 
+	.references-margin-K80-text
+	p {
+		padding: 0px;
+	}
+
+	.slide {
+		width: 100%;
+	}
+
+	.btnprev {
+		top: 15%;
+		left: 10%;
+	}
+
+	.btnnext {
+		margin-left: -20px;
+		top: 15%;
+		left: 87%;
+	}
+
+	.c100 > span {
+
+	}
+}
+
+@media (max-width: 767px) {
+	.header-left-text {
+		left: 20%;
+		width: 80%;
+	}
 }
 
 // Small devices (landscape phones, 576px and up)

@@ -4,15 +4,27 @@ body {
 	padding: 0px;
 	height: auto;
 	color: #FFFFFF;
-	overflow-x: hidden;
-	font-family: Poppins-language;
-	letter-spacing: 0.05em;
+	/*overflow-x: hidden;*/
+	font-family: 'Poppins';
+	/*overflow: hidden;*/
+	/*letter-spacing: 0.05em;*/	
+}
+
+.nhay {
+	font-family: 'PortLligatSans';
+	font-size: 80px;
+	top: 0;
+	left: -38px;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: center;
 }
 
 ul li {
 	list-style-type: none;
 	margin-right: 35px;
-	float: left;
 }
 
 ul li a {
@@ -22,8 +34,24 @@ ul li a {
 }
 
 .pBumble {
-	width: 150px;
-	border: 1px solid red;
+	margin-top: -22px;
+	width: 176px;
+	height: 2px;
+	background-image: linear-gradient(#FB644D, #F64C71); /* Standard syntax (must be last) */
+}
+
+.pBumble
+.line {
+	height: 2px;
+	background-image: linear-gradient(#FB644D, #F64C71);
+}
+
+.header-left-text {
+
+}
+
+.ThongTin table {
+	font-size: 14px;
 }
 
 .btnEditPR {
@@ -32,9 +60,25 @@ ul li a {
 	margin-top: 15px;
 }
 
+.btnAddChart {
+	padding: 8px 8px;
+	border: 1px solid red;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: -5%;
+}
+
+.btnAddChart1 {
+	padding: 8px 8px;
+	border: 1px solid red;
+	margin-top: 15px;
+	width: 105px;
+}
+
 .btnEditSumary {
 	border: 1px solid red;
 	padding: 8px 8px;
+	margin-bottom: 15px;
 	margin-top: 8px;
 	margin-left: 90%;
 }
@@ -44,52 +88,125 @@ ul li a:hover {
 	text-decoration: underline;
 	font-weight: bold;
 }
-
+/*
 .menu {
 	width: 100%;
 	float: left;
 	margin-top: 5px;
 	margin-left: 235px;
 	margin-bottom: 15px;
-}
+	}*/
+	.menu {
+		height: 50px;
+		width: 100%;
+	}
+	.menu ul:after {
+		display: block;
+		clear: both;
+	}
 
-.header1 {
-	width: 100%;
-	height: 600px;
-	background: #242581;
-}
+	.header1 {
+		width: 100%;
+		height: 650px;
+		background: #242581;
+		clear: both;
+	}
 
-.header-left {
-	width: 50%;
-	float: left;
-}
+	.header-left {
+		width: 50%;
+		float: left;
+		position: relative;
+	}
 
-.header-left-img img {
+	.header-left-img img {
+		position: relative;
+	}
+
+	.header-left-text {
+		width: 70%;
+		margin-top: -170px;
+		color: #FFFFFF;
+		position: absolute;
+		left: 30%;
+	}
+
+	.header-left-img img {
+		width: 100%;
+		height: 650px;
+	}
+
+	.header-right{
+		width: 50%;
+		float: left;
+	}
+
+	.header-right
+	.Bumble {
+		clear: both;
+		text-align: center !important;
+	}
+
+	.header-right
+	.Bumble p {
+		text-align: center !important;
+	}
+
+	.header-left-text
+	.ruby {
+		margin-top: -12px;
+	}
+	.btnAddEXPERIENCE {
+		margin-left: 69%;
+		border: 1px solid red;
+		padding:10px 10px;
+	}
+
+	.addImg {
+		border: 1px solid red; 
+		padding:10px; 
+		width: 139px;
+		margin-top: 95px;
+		margin-left: 45px;
+	}
+
+	.addProject{
+		border: 1px solid red; 
+		padding:10px; 
+		width: 139px;
+		margin-top: 75px;
+		margin-left: 90px;
+	}
+/*chen 1 phan tu vao truoc
+after: sau*/
+h1{
 	position: relative;
+	display: inline-block;
 }
 
-.header-left-text {
-	width: 100%;
-	margin-top: -170px;
-	margin-left: 160px;
-	color: #FFFFFF;
+h1:before {
+	content: "";
+	height: 2px;
+	background-image: linear-gradient(#FB644D, #F64C71); /* Standard syntax (must be last) */
+	display: block;
+	float: right;
+	width: 50px;
+	margin-left:-50px;
+}
+
+h1:after {
+	content: "";
+	height: 2px;
+	background-image: linear-gradient(#FB644D, #F64C71); /* Standard syntax (must be last) */
+	display: block;
+	width: 100px;
 	position: absolute;
+	float: right;
 }
 
-.header-left-img img {
-	width: 100%;
-	height: 595px;
-}
-
-.header-right{
-	width: 50%;
-	float: left;
-}
-
-.header-right
-.Bumble {
-	clear: both;
-	text-align: center;
+.language {
+	margin-top: 105px;
+	margin-left: 10px;
+	font-size: 18px
 }
 
 .DD-tron img {
@@ -101,13 +218,30 @@ ul li a:hover {
 	position: relative;
 	border-radius:50%;
 }
-/*.icon{
-	width: 200px;
-	height: 100px;
-	border-radius:50%;
+
+.upload {
+	bottom: 0;
+	width: 50%;
+	height: 33px;
+	background: rgba(58, 57, 57, 0.8);
+	width: 100%;
+	margin-top: -300px;
+	line-height: 0;
 	position: absolute;
-	background: green;
-}*/
+}
+
+.ThongTin table tr td {
+	padding-left: 30px;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.ThongTin table tr .trtd {
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+}
+
 .icon img {
 	position: absolute;
 	margin-left:335px;
@@ -118,16 +252,15 @@ ul li a:hover {
 
 .header-right 
 .line {
-	width: 400px;
+	width: 55%;
+	margin : 0 auto;
 	margin-bottom: 15px;
 	height: 0px;
-	margin-left: 133px;
 	border: 1px solid #F64C71;
 }
 
 .PROFESSIONAL {
 	width: 100%;
-	margin-top:-21px;
 	background-color: #2026B2;
 }
 
@@ -136,9 +269,8 @@ ul li a:hover {
 	margin: 0 auto;
 }
 
-.PROFESSIONAL h1 {
-	clear: both;
-	padding-top: 50px;
+.PROFESSIONAL-margin h1 {
+	margin-left: -50%;
 }
 
 .canvas {
@@ -159,6 +291,10 @@ ul li a:hover {
 	text-align: justify;
 }
 
+p {
+	text-align: justify;
+}
+
 .line1 {
 	width: 50px;
 	border: 1px solid red;
@@ -174,7 +310,7 @@ ul li a:hover {
 	width: 100%;
 	clear: both;
 	background-color: #4A0F73;
-	
+
 }
 
 .Skills-margin {
@@ -186,6 +322,14 @@ ul li a:hover {
 .Skills-left {
 	width: 50%;
 	float: left;
+}
+
+.Skills-left p {
+	padding-right: 15px;
+}
+
+.Skills-right p {
+	padding-left: 5px;
 }
 
 .Skills-right {
@@ -230,15 +374,7 @@ ul li a:hover {
 	border: 10px solid green;
 	border-radius: 50%;
 }
-/*.Skill-left-mazu .Skill-left-mazu1{
-	text-align: center;
-	padding: 2px;
-	margin-left: -45px;
-    padding-top: 40%;
-}*/
-/*.Skill-left-mazu .HTML{
-	
-}*/
+
 .EXPERIENCE {
 	padding-bottom:30px;
 	width: 100%;
@@ -257,6 +393,14 @@ ul li a:hover {
 	float: left;
 }
 
+.EXPERIENCE-margin-left p {
+	padding-right: 15px;
+}
+
+.EDUCATION-margin-right p {
+	padding-left: 15px;
+}
+
 .EXPERIENCE-margin 
 .EDUCATION-margin-right {
 	width: 50%;
@@ -266,14 +410,14 @@ ul li a:hover {
 .khoi {
 	position: relative;
 	padding-left: 50px;
-	overflow: hidden;
+	padding-right: 20px;
 }
 .item {
 	position: relative;
 	padding: 5px;
-	border: 1px solid #CDCDCD;
+	border: 1px solid #ffffff;
 	margin-bottom: 10px;
-	z-index: 9
+	z-index: 9;
 }
 
 .khoi:before {
@@ -283,7 +427,7 @@ ul li a:hover {
 	top: 0;
 	height: 100%;
 	width: 0;
-	border-left: 1px solid #CDCDCD;
+	border-left: 1px solid #ffffff;
 
 }
 
@@ -294,7 +438,7 @@ ul li a:hover {
 	height: 0;
 	left: 0;
 	width: 10px;
-	border-top: 1px solid red;
+	border-top: 1px solid #ffffff;
 	margin-left: 10px;
 }
 
@@ -305,7 +449,7 @@ ul li a:hover {
 	height: 0;
 	left: -35px;
 	width: 35px;
-	border-top: 1px solid red;
+	border-top: 1px dotted #ffffff;
 	z-index: 1;
 }
 
@@ -318,8 +462,27 @@ ul li a:hover {
 	height: 0;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-left: 6px solid black;
+	border-left: 6px solid #ffffff;
 	z-index: 999999999999999999999999999999999999999999999
+}
+
+.references-margin-K80-text p {
+	display: inline-block;
+}
+
+.references-margin-K80-text p:before {
+	content: "“";
+	font-family: 'Port Lligat Sans';
+	font-size:30px;
+}
+
+.references-margin-K80-text p:after {
+	content: "”";
+	font-family: 'Port Lligat Sans';
+	width: 0;
+	height: 0;
+	width: 25px;
+	font-size:30px;
 }
 
 .addClasspor {
@@ -330,8 +493,8 @@ ul li a:hover {
 	width:100%;
 	height: auto;
 	padding-top:10px;
+	padding-bottom: 25px;
 	background: #563D67;
-
 }
 
 .portfolio .portfolio-margin {
@@ -355,10 +518,16 @@ ul li a:hover {
 
 .column img {
 	margin-top: 8px;
-  	vertical-align: middle;
+	vertical-align: middle;
 }
 
-.menu1 ul li a{
+
+.menu1 ul li {
+	float: left;
+}
+
+.menu1 ul li a {
+	display: inline-block;
 	font-size: 20px;
 }
 
@@ -368,8 +537,7 @@ ul li a:hover {
 
 .references {
 	width: 100%;
-	margin-top: -21px;
-	padding-bottom:15px;
+	padding-bottom:30px;
 	background: #2F2FA1;
 }
 
@@ -379,27 +547,95 @@ ul li a:hover {
 	margin:0 auto;
 }
 
-.references-margin .flo {
+.references-margin 
+.flo {
 	float: left;
 }
 
-.references-margin .flo1 {
+.references-margin 
+.flo1 {
 	float: left;
 	width: 20%;
-	padding-left: 100px;
 }
 
-.references-margin .flo1 img {
-	width: 20%;
-	width: 50px;
-	height: 200px;
+.references-margin 
+.flo1 img {
+	background-size: 100% 100%;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
 }
 
-.references-margin .flo2 {
+.references-margin 
+.flo2 {
+	display: block;
+	padding-left: 80px;
+	width: calc(80% - 80px);
+}
+
+.references-margin-K80-avarta img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	padding:5px;
+	border: 1px solid #ffffff;
+}
+
+.slide {
+	box-sizing: border-box;
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.btnprev {
+	position: absolute;
+	top: 40%;
+}
+
+.btnnext {
+	float: right;
+	top: 40%;
+	margin-left: 15px;
+	left: 100%;
+	position: absolute;
+}
+
+.references-margin-K80 
+.references-margin-K80-text
+p {
+	clear: both;
+	text-align: justify;
+	padding-left: 15px;
+}
+
+.references-margin-K80 
+.references-margin-K80-text {
 	float: left;
-    padding-left: 80px;
-    padding-top: 30px;
-    width: 60%;
+	width: 5%;
+}
+
+.khoangcach {
+	float: left;
+	margin: 25px 6%;
+}
+.addreferences {
+	clear: both;
+	border: 1px solid red;
+	padding: 8px 8px;
+	margin: 0 auto;
+}
+
+.references-margin-K80 
+.references-margin-K80-avarta {
+	float: left;
+	width: 25%;
+}
+
+.references-margin-K80 
+.references-margin-K80-text {
+	float: left;
+	width: 75%;
 }
 
 .project {
@@ -442,16 +678,127 @@ ul li a:hover {
 	height: 400px;
 }
 
-.footer {
+.sub {
 	width: 100%;
-	margin-top: -18px;
+}
+
+.sub
+.sub-25 {
+	width: 25%;
+	float: left;
+}
+
+.sub
+.sub-25
+.sub-25-100 {
+	width: 100%;
+	height: 250px;
+	line-height: 25;
+	background: #FD7038;
+}
+
+.sub
+.sub-25
+.sub-25-150 {
+	width: 100%;
+	height: 500px;
+	line-height: 45;
+	background: #EECD10;
+}
+
+.sub
+.sub-25
+.sub-25-150 img {
+
+	height: 250px;
+
+}
+
+.sub
+.sub-25
+.sub-25-100 img {
+	align-items: center;
+	justify-content: center;
+}
+
+.sub
+.sub-25
+.sub-25-100 img
+.img500 {
+	width: 80%;
+	height: 300px;
+	align-items: center;
+}
+
+.addPJ {
+	border: 1px solid red;
+	padding: 10px 15px;
+	float: right;
+	margin-top: 15px;
+}
+
+.menu-cham {
+	clear: both;
+	height: 20px;
+}
+
+.menu-cham ul li {
+	float: left;
+}
+
+/*.btnskill{
+	width: 68%;
+}*/
+
+.clearfix {
+	width: 100%;
+}
+.clearfix1 {
+	display: block;
+	clear: both;
+}
+
+@font-face{
+	font-family: 'Poppins';
+	/*src:url(../fonts/Poppins-Bold.ttf);*/
+	src:url(../fonts/Poppins-Light.ttf);
+	/*src:url(../fonts/Poppins-Medium.ttf);*/
+	/*src:url(../fonts/Poppins-SemiBold.ttf);*/
+}
+
+@font-face{
+	font-family: 'Port Lligat Sans';
+	src:url(../fonts/PortLligatSans-Regular.ttf);
+}
+
+.teamchart {
+	padding-top: 25px;
+	position: relative!important;
+}
+
+.teamchart-div {
+	background-color: #ffffff;
+	border-radius: 3px;
+	height: 7px;
+	margin-top: 10px;
+}
+
+.teamchart-div .teamchart-div-1 {
+	background: linear-gradient(90.71deg, #F64C71 0.6%, #FB634E 50.01%);
+	border-radius: 3px;
+	height: 100%;
+}
+
+.spanteamchart {
+	right: 108px;
+	top: 35px;
+	position: absolute!important;
+}
+
+.footer {
+	clear: both;
+	width: 100%;
 	text-align: center;
 	line-height: 50px;
 	background: #0C0C5E;
-	height: 50px;
-}
-
-.clearfix {
-	display: block;
-	clear: both;
 }

@@ -3,7 +3,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	height: auto;
-	color: #FFFFFF;
+	color: #ffffff;
 	/*overflow-x: hidden;*/
 	font-family: 'Poppins';
 	/*overflow: hidden;*/
@@ -30,7 +30,7 @@ ul li {
 ul li a {
 	text-decoration: none;
 	font-size: 14px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .pBumble {
@@ -125,7 +125,7 @@ ul li a:hover {
 	.header-left-text {
 		width: 70%;
 		margin-top: -170px;
-		color: #FFFFFF;
+		color: #ffffff;
 		position: absolute;
 		left: 30%;
 	}

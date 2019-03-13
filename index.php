@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Thuc Hanh HTML, CSS, JS</title>
+	<title>Hapo - TruongVT</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/Styles.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
@@ -12,14 +12,14 @@
 	<link rel="stylesheet" type="text/css" href="css/Styles-mb.css">
 </head>
 <body>
-	<div class="header1">
+	<div class="header">
 		<div class="header-left">
 			<div class="header-left-img">
 				<img src="images/Rectangle.png" title="imgage">
 			</div>
 			<div class="header-left-text">
 				<h2>BUMBLEBEE WALKER</h2>
-				<p class="pBumble"></p>
+				<p class="bumble"></p>
 				<p class="ruby">Ruby on Rail Developer</p>
 			</div>
 		</div>
@@ -31,27 +31,19 @@
 				</ul>
 			</div>
 			<div class="clearfix1">
-				
 			</div>
-			<div class="DD-tron" align="center">
+			<div class="avatar-img" align="center">
 				<img src="images/Rectangle.png" title="avatar">
 			</div>
-			<!-- <div class="upload">
-				<i class="fas fa-camera-retro" align="center"></i>
-			</div> -->
-			<!-- <div class="icon">
-				<img src="images/iconCamera.png" alt="upload">
-			</div> -->
-			<div class="Bumble">
-				<h2>Bumblebee Walker</h2>
-				<p>25/12/1992</p>
+			<div class="bumble-walker">
+				<p>BUMBLE WALKER</p>
+				<p style="margin-bottom: 15px">25/12/1992</p>
 			</div>
 			<div class="line" align="center">
-
 			</div>
-			<div class="ThongTin">
-				<form action="" method="get" accept-charset="utf-8">
-					<table align="center">
+			<div class="infor">
+				<form action="" method="">
+					<table>
 						<caption></caption>
 						<tbody>
 							<tr>
@@ -82,40 +74,33 @@
 					</table>
 				</form>
 				<div class="btn" align="center">
-					<button id="btnAddProject" class="btnEditPR">Edit Profile  <i class="fas fa-pen"></i></button>
+					<button class="btn-edit-profile">
+						Edit Profile  
+						<i class="fas fa-pen"></i>
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="PROFESSIONAL">
-		<div class="PROFESSIONAL-margin">
+	<div class="professional">
+		<div class="professional-margin">
 			<h1>PROFESSIONAL SUMMARY</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol.</p>
-			<div class="btn" align="center">
-				<button id="btnEditSumary" class="btnEditSumary">Edit Summary  <i class="fas fa-pen"></i></button>
+			<div class="btnsumary" align="right">
+				<button id="btn-edit-sumary" class="btn-edit-sumary">Edit Summary  
+					<i class="fas fa-pen"></i>
+				</button>
 			</div>
 		</div>
 	</div>
 
-	<div class="Skills">
-		<div class="Skills-margin">
-			<div class="Skills-left">
+	<div class="skills">
+		<div class="skills-margin">
+			<div class="skills-left">
 				<h1>PROFESSIONAL SKILLS</h1>
-				<!-- <p class="line2"></p> -->
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-				<!-- <div class="Skill-left-mazu">
-					<div class="Skill-left-mazu1 HTML">	
-					</div>
-				</div>
-				<p>HTML/CSS</p> -->
-				<!-- <div class="canvas" align="center">
-					<canvas id="myChartjs">
-					</canvas>
-				</div>	 -->
 				<div class="page" align="center">
-					<!-- default -->
-
 					<div class="clearfix">
 						<div class="c100 p90 khoangcach">
 							<span>90%</span>
@@ -123,7 +108,7 @@
 								<div class="bar"></div>
 								<div class="fill"></div>
 							</div>
-							<span style="margin-top: 90px;margin-left: 10px;font-size: 18px" align="center">html/css</span>
+							<span class="slide-language" align="center">HTML/CSS</span>
 						</div>
 						<div class="c100 p75 khoangcach">
 							<span>75%</span>
@@ -131,7 +116,7 @@
 								<div class="bar"></div>
 								<div class="fill"></div>
 							</div>
-							<span style="margin-top: 90px;margin-left: 10px;font-size: 18px" align="center">JavaJS</span>
+							<span class="slide-language" align="center">C#,NET</span>
 						</div>
 						<div class="c100 p55 khoangcach">
 							<span>55%</span>
@@ -139,7 +124,7 @@
 								<div class="bar"></div>
 								<div class="fill"></div>
 							</div>
-							<span style="margin-top: 90px;margin-left: 10px;font-size: 18px" align="center">PHP</span>
+							<span class="slide-language" align="center">MYSQL</span>
 						</div>
 						<div class="c100 p55 khoangcach">
 							<span>55%</span>
@@ -147,7 +132,7 @@
 								<div class="bar"></div>
 								<div class="fill"></div>
 							</div>
-							<span style="margin-top: 90px;margin-left: 10px;font-size: 18px" align="center">PHP</span>
+							<span class="slide-language" align="center">PHP</span>
 						</div>
 						<div class="c100 p55 khoangcach">
 							<span>55%</span>
@@ -155,79 +140,53 @@
 								<div class="bar"></div>
 								<div class="fill"></div>
 							</div>
-							<span style="margin-top: 90px;margin-left: 10px;font-size: 18px" align="center">PHP</span>
+							<span class="slide-language" align="center">PHP</span>
 						</div>
-						<div class="btnskill1" align="center">
-							<button class="btnAddChart">Add Skills <i class="fas fa-plus"></i></button>
+						<div class="btnskill" align="center">
+							<button class="btn-add-chart">Add Skills <i class="fas fa-plus"></i></button>
 						</div>
 					</div>
-
-
-					<!-- <div class="clearfix">
-						<div class="c100 p90 khoangcach">
-							<span>90%</span>
-							<div class="slice">
-								<div class="bar"></div>
-								<div class="fill"></div>
-							</div>
-							<span style="margin-top: 105px;margin-left: 10px;font-size: 18px" align="center">html/css</span>
-						</div>
-						<div class="c100 p75 khoangcach">
-							<span>75%</span>
-							<div class="slice">
-								<div class="bar"></div>
-								<div class="fill"></div>
-							</div>
-							<span style="margin-top: 105px;margin-left: 10px;font-size: 18px" align="center">JavaJS</span>
-						</div>
-						<div class="btn" align="left">
-							<button class="btnAddChart">Add Skills <i class="fas fa-plus"></i></button>
-						</div>
-					</div> -->
 				</div>
 			</div>
 
-			<div class="Skills-right">
+			<div class="skills-right">
 				<h1>PERSONAL SKILLS</h1>
-				<!-- <p class="line2"></p> -->
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-
 				<div class="teamchart">TEAMWORK<br>
 					<div class="teamchart-div">
-						<div class="teamchart-div-1" style="width:80%">
-							<span class="spanteamchart">80%</span>
+						<div class="teamchart-div-1" style="width:65%">
+							<span class="spanteamchart">65%</span>
 						</div>
 					</div> 
 				</div>
-
 				<div class="teamchart">TEAMWORK<br>
 					<div class="teamchart-div">
-						<div class="teamchart-div-1" style="width:80%">
-							<span class="spanteamchart">80%</span>
+						<div class="teamchart-div-1" style="width:65%">
+							<span class="spanteamchart">65%</span>
 						</div>
 					</div> 
 				</div>
-
 				<div class="teamchart">TEAMWORK<br>
 					<div class="teamchart-div">
-						<div class="teamchart-div-1" style="width:80%">
-							<span class="spanteamchart">80%</span>
+						<div class="teamchart-div-1" style="width:65%">
+							<span class="spanteamchart">65%</span>
 						</div>
 					</div> 
 				</div>
-
 				<div class="btnskill" align="right">
-					<button class="btnAddChart1">Add Skills  <i class="fas fa-plus"></i></button>
+					<button class="btn-add-chart-right">Add Skills  
+						<i class="fas fa-plus"></i>
+					</button>
 				</div>
 			</div>
 			<div class="clearfix1"></div>
 		</div>
 	</div>
 
-	<div class="EXPERIENCE">
-		<div class="EXPERIENCE-margin">
-			<div class="EXPERIENCE-margin-left">
-				<h1>WORK EXPERIENCE</h1>
+<!-- 	<div class="experience">
+		<div class="experience-margin">
+			<div class="experience-margin-left">
+				<h1 class="white-line">WORK EXPERIENCE</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 				<div class="khoi">
 					<div class="item">
@@ -245,15 +204,16 @@
 						<p>Developer</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 					</div>
-					<div class="btn" align="center">
-						<button class="btnAddEXPERIENCE">Add work experience  <i class="fas fa-plus"></i></button>
-					</div>
 				</div>
-				
+				<div class="btn" align="right">
+					<button class="btn-add-experience">Add work experience  
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
 			</div>
 
-			<div class="EDUCATION-margin-right">
-				<h1>EDUCATION</h1>
+			<div class="education-margin-right">
+				<h1 class="white-line">EDUCATION</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 				<div class="khoi">
 					<div class="item">
@@ -271,11 +231,73 @@
 						<p>Developer</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 					</div>
-					<div class="btn" align="center">
-						<button class="btnAddEXPERIENCE">Add work experience  <i class="fas fa-plus"></i></button>
+				</div>
+				<div class="btn" align="right">
+					<button class="btn-add-experience">Add work experience  
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
+			</div>
+
+			<div class="clearfix1"></div>
+		</div>
+	</div> -->
+
+		<div class="experience">
+		<div class="experience-margin">
+			<div class="experience-margin-left">
+				<h1 class="white-line">WORK EXPERIENCE</h1>
+				<p class="uedesu">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+				<div class="khoi">
+					<div class="item">
+						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+						<p>Developer</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+					</div>
+					<div class="item">
+						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+						<p>Developer</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+					</div>
+					<div class="item">
+						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+						<p>Developer</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
 					</div>
 				</div>
-				
+				<div class="btn" align="right">
+					<button class="btn-add-experience">Add work experience  
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
+			</div>
+
+			<div class="education-margin-right">
+				<h1 class="white-line">EDUCATION</h1>
+				<p class="uedesuhai">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+				<!--  -->
+				<div class="khoi-edu">
+					<div class="item-edu">
+						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+						<p>Developer</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+					</div>
+					<div class="item-edu">
+						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+						<p>Developer</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+					</div>
+					<div class="item-edu">
+						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+						<p>Developer</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+					</div>
+				</div>
+				<div class="btn" align="right">
+					<button class="btn-add-experience">Add work experience  
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
 			</div>
 
 			<div class="clearfix1"></div>
@@ -376,7 +398,7 @@
 	<div class="portfolio">
 		<div class="portfolio-margin">
 			<h1>WORD PORTFOLIO</h1>
-			<div class="menu1">
+			<div class="menu-portfolio">
 				<ul>
 					<li><a href="#">All</a></li>
 					<li><a href="#">FEATURED</a></li>
@@ -386,47 +408,46 @@
 				</ul>
 			</div><br>
 			<br>
-			<div class="sub">
-				<div class="sub-25">
-					<div class="sub-25-100" style="background: #FD7038;" align="center">
+			<div class="folder">
+				<div class="folder-margin">
+					<div class="folder-margin-img" style="background: #FD7038;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
-					<div class="sub-25-100" style="background: #333333;" align="center">
+					<div class="folder-margin-img" style="background: #333333;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
-					<div class="sub-25-100" style="background: #F64C71;" align="center">
+					<div class="folder-margin-img" style="background: #F64C71;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
 				</div>
-				<div class="sub-25">
-					<div class="sub-25-150" style="background: #EECD10;" align="center">
-						<img class="img500" src="images/project-black.jpg" alt="">
+				<div class="folder-margin">
+					<div class="folder-margin-imgg" style="background: #EECD10;" align="center">
+						<img class="imgg" src="images/project-black.jpg" alt="">
 					</div>
 					
-					<div class="sub-25-100" style="background: #333333;" align="center">
+					<div class="folder-margin-img" style="background: #333333;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
 				</div>
-				<div class="sub-25">
-					<div class="sub-25-100" style="background: #2F2FA1;" align="center">
+				<div class="folder-margin">
+					<div class="folder-margin-img" style="background: #2F2FA1;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
-					<div class="sub-25-150" style="background: #EF5B5B;" align="center">
-						<img class="img500" src="images/project-black.jpg" alt="">
+					<div class="folder-margin-imgg" style="background: #EF5B5B;" align="center">
+						<img class="imgg" src="images/project-black.jpg" alt="">
 					</div>	
 				</div>
-				<div class="sub-25">
-					<div class="sub-25-100" style="background: #F64C71;" align="center">
+				<div class="folder-margin">
+					<div class="folder-margin-img" style="background: #F64C71;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
-					<div class="sub-25-100" style="background: #F9BC2D;" align="center">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<div class="sub-25-100" style="background: #2F2FA1;" align="center">
+					<div class="folder-margin-img" style="background: #F9BC2D;" align="center">
 						<img src="images/project-black.jpg" alt="">
 					</div>
 				</div>
-				<button class="addPJ" align="center"> Add Project  <i class="fas fa-plus"></i></button>
+				<button class="btn-add-pj" align="center"> Add Project  
+					<i class="fas fa-plus"></i>
+				</button>
 			</div>
 			<div class="clearfix1"></div>
 		</div>
@@ -436,11 +457,11 @@
 		<div class="references-margin">
 			<h1>REFERENCES RENCES</h1>
 			<div class="slide">
-				<div class="references-margin-K80">
-					<div class="references-margin-K80-avarta" align="center">
+				<div class="references-margin-k">
+					<div class="references-margin-k-avarta" align="center">
 						<img src="images/Rectangle.png" alt="">
 					</div>
-					<div class="references-margin-K80-text">
+					<div class="references-margin-k-text">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -452,96 +473,38 @@
 					</div>
 				</div>
 				<div class="btnprev">
-					<button type="submit">
-						<i class="fas fa-chevron-circle-left"></i>
-					</button>
+					<
 				</div>
 				<div class="btnnext">
-					<button type="submit"><i class="fas fa-chevron-circle-right">
-					</i>
-					</button>
-				</div>
-				<!-- <div class="menu-cham" align="center">
-					<ul>
-						<li>
-							<button type="button">1</button>
-						</li>
-						<li>
-							<button type="button">2</button>
-						</li>
-						<li>
-							<button type="button">3</button>
-						</li>
-					</ul>
-				</div> -->
-				<div class="btnaddrefer" align="center">
-					<button class="addreferences" align="center"> Add References  <i class="fas fa-plus"></i></button>
-				</div>
+					>
+				</button>
 			</div>
-			<div class="clearfix1"></div>
+			<div class="btnaddrefer" align="center">
+				<button class="addreferences" align="center"> Add References  <i class="fas fa-plus"></i></button>
+			</div>
 		</div>
+		<div class="clearfix1"></div>
 	</div>
 </div>
-		<!-- <div class="references">
-			<div class="references-margin">
-				<h1 style="padding-top: 15px;">REFERENCES</h1>
-				<div class="owl-carousel owl-theme" id="slide11111111">
-					<div>
-						<div class="DD-tron flo flo1" align="center">
-							<img src="images/Rectangle.png" title="avatar">
-						</div>
-						<div class="VBtext flo flo2">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit es..."</p>
-							</div>
-						</div>
-						<div>
-							<div class="DD-tron flo flo1" align="center">
-								<img src="images/Rectangle.png" title="avatar">
-							</div>
-							<div class="VBtext flo flo2">
-								<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit es..."</p>
-								</div>
-							</div>
-							<div>
-								<div class="DD-tron flo flo1" align="center">
-									<img src="images/Rectangle.png" title="avatar">
-								</div>
-								<div class="VBtext flo flo2">
-									<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit es..."</p>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-						</div>
-					</div> -->
+<div class="footer">
+	<details>
+		<summary>2019 Flatos.com All right reserved.</summary>
+		<h2>Cuoc song la nhung trai nghiem</h2>
+		<h3>du cho - ngay mai - khong duoc - tiep tuc</h3>
+	</details>
+</div>
+</div>		
 
-					
-					<div class="footer">
-						<details>
-							<summary>2019 Flatos.com All right reserved.</summary>
-							<h2>Cuoc song la nhung trai nghiem</h2>
-							<h3>du cho - ngay mai - khong duoc - tiep tuc</h3>
-						</details>
-					</div>
-					<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-					<script type="text/javascript" src="script.js"></script>
-					<script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
-					<script type="text/javascript">
-						$(document).ready(function(){
-							$("#slide11111111").owlCarousel({
-								loop: true,
-								items: 1
-							});
-						});
-					</script>
-				</body>
-				</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#slide11111111").owlCarousel({
+			loop: true,
+			items: 1
+		});
+	});
+</script>
+</body>
+</html>

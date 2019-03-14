@@ -16,6 +16,9 @@
 		<div class="header-left">
 			<div class="header-left-img">
 				<img src="images/Rectangle.png" title="imgage">
+				<!-- <a class="avatar-camera-left" href="#" title="avarta">
+					<i class="fas fa-camera"></i>
+				</a> -->
 			</div>
 			<div class="header-left-text">
 				<h2>BUMBLEBEE WALKER</h2>
@@ -30,10 +33,13 @@
 					<li><a href="#">Japanese</a></li>
 				</ul>
 			</div>
-			<div class="clearfix1">
+			<div class="clearfix-one">
 			</div>
 			<div class="avatar-img" align="center">
 				<img src="images/Rectangle.png" title="avatar">
+				<a class="avatar-camera" href="#" title="avarta">
+					<i class="fas fa-camera"></i>
+				</a>
 			</div>
 			<div class="bumble-walker">
 				<p>BUMBLE WALKER</p>
@@ -47,27 +53,27 @@
 						<caption></caption>
 						<tbody>
 							<tr>
-								<td>Phone: </td>
+								<td><b>Phone:</b></td>
 								<td>0123456789</td>
 							</tr>
 							<tr>
-								<td>Email:</td>
+								<td><b>Email:</b></td>
 								<td>bumblebee@gmail.com</td>
 							</tr>
 							<tr>
-								<td>Facebook:</td>
+								<td><b>Facebook:</b></td>
 								<td>bumblebee</td>
 							</tr>
 							<tr>
-								<td>Skype:</td>
+								<td><b>Skype:</b></td>
 								<td>bumblebee</td>
 							</tr>
 							<tr>
-								<td>Chatwork:</td>
+								<td><b>Chatwork:</b></td>
 								<td>bumblebee</td>
 							</tr>
 							<tr>
-								<td>Address:</td>
+								<td><b>Address:</b></td>
 								<td>58  Tran Binh - Mai Dich - Cau Giay - Ha Noi</td>
 							</tr>
 						</tbody>
@@ -87,7 +93,7 @@
 		<div class="professional-margin">
 			<h1>PROFESSIONAL SUMMARY</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol.</p>
-			<div class="btnsumary" align="right">
+			<div class="btn-sumary" align="right">
 				<button id="btn-edit-sumary" class="btn-edit-sumary">Edit Summary  
 					<i class="fas fa-pen"></i>
 				</button>
@@ -100,9 +106,80 @@
 			<div class="skills-left">
 				<h1>PROFESSIONAL SKILLS</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-				<div class="page" align="center">
+				<div class="div-mazu">
+					<div class="chart-mazu" style="float: left;">
+						<div class="circle" style="" data-percentage="50">
+							<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+								<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+								<circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9" r="15.9">
+								</circle>
+								<g class="circle-chart__info">
+									<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+								</g>
+							</svg>
+							<span class="span-white-per-number">75%</span><br>
+							<p class="span-white-per-text">HTML/CSS</p>
+						</div>
+						<div class="circle" style="" data-percentage="50">
+							<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+								<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+								<circle class="circle-chart__circle success-stroke" stroke-dasharray="65,100" cx="16.9" cy="16.9" r="15.9">
+								</circle>
+								<g class="circle-chart__info">
+									<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+								</g>
+							</svg>
+							<span class="span-white-per-number" style="">65%</span><br>
+							<p class="span-white-per-text" style="">HTML/CSS</p>
+						</div>
+					</div>
+					<div class="chart-mazu" style="float: left;">
+						<div class="circle" style="" data-percentage="50">
+							<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+								<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+								<circle class="circle-chart__circle success-stroke" stroke-dasharray="55,100" cx="16.9" cy="16.9" r="15.9">
+								</circle>
+								<g class="circle-chart__info">
+									<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+								</g>
+							</svg>
+							<span class="span-white-per-number" style="">55%</span><br>
+							<p class="span-white-per-text" style="">HTML/CSS</p>
+						</div>
+						<div class="circle" style="" data-percentage="50">
+							<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+								<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+								<circle class="circle-chart__circle success-stroke" stroke-dasharray="45,100" cx="16.9" cy="16.9" r="15.9">
+								</circle>
+								<g class="circle-chart__info">
+									<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+								</g>
+							</svg>
+							<span class="span-white-per-number">45%</span><br>
+							<p class="span-white-per-text">HTML/CSS</p>
+						</div>
+					</div>
+					<div class="chart-mazu" style="float: left;">
+						<div class="circle circle-owari" style="" data-percentage="50">
+							<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+								<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+								<circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9" r="15.9">
+								</circle>
+								<g class="circle-chart__info">
+									<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+								</g>
+							</svg>
+							<span class="span-white-per-number">75%</span><br>
+							<p class="span-white-per-text">HTML/CSS</p>
+						</div>
+						<div class="btn-add-chart-skill" align="center" data-percentage="50">
+							<button class="btn-add-chart-left" type="submit">Add Skills</button>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="page" align="center">
 					<div class="clearfix">
-						<div class="c100 p90 khoangcach">
+						<div class="c100 p90 distance">
 							<span>90%</span>
 							<div class="slice">
 								<div class="bar"></div>
@@ -110,7 +187,7 @@
 							</div>
 							<span class="slide-language" align="center">HTML/CSS</span>
 						</div>
-						<div class="c100 p75 khoangcach">
+						<div class="c100 p75 distance">
 							<span>75%</span>
 							<div class="slice">
 								<div class="bar"></div>
@@ -118,7 +195,7 @@
 							</div>
 							<span class="slide-language" align="center">C#,NET</span>
 						</div>
-						<div class="c100 p55 khoangcach">
+						<div class="c100 p55 distance">
 							<span>55%</span>
 							<div class="slice">
 								<div class="bar"></div>
@@ -126,7 +203,7 @@
 							</div>
 							<span class="slide-language" align="center">MYSQL</span>
 						</div>
-						<div class="c100 p55 khoangcach">
+						<div class="c100 p55 distance">
 							<span>55%</span>
 							<div class="slice">
 								<div class="bar"></div>
@@ -134,7 +211,7 @@
 							</div>
 							<span class="slide-language" align="center">PHP</span>
 						</div>
-						<div class="c100 p55 khoangcach">
+						<div class="c100 p55 distance">
 							<span>55%</span>
 							<div class="slice">
 								<div class="bar"></div>
@@ -142,44 +219,44 @@
 							</div>
 							<span class="slide-language" align="center">PHP</span>
 						</div>
-						<div class="btnskill" align="center">
+						<div class="btn-skill-add" align="center">
 							<button class="btn-add-chart">Add Skills <i class="fas fa-plus"></i></button>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
-
-			<div class="skills-right">
+			
+			<div class="skills-right" >
 				<h1>PERSONAL SKILLS</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-				<div class="teamchart">TEAMWORK<br>
-					<div class="teamchart-div">
-						<div class="teamchart-div-1" style="width:65%">
-							<span class="spanteamchart">65%</span>
+				<div class="team-chart">TEAMWORK<br>
+					<div class="team-chart-div">
+						<div class="team-chart-div-one">
+							<span class="span-team-chart">65%</span>
 						</div>
 					</div> 
 				</div>
-				<div class="teamchart">TEAMWORK<br>
-					<div class="teamchart-div">
-						<div class="teamchart-div-1" style="width:65%">
-							<span class="spanteamchart">65%</span>
+				<div class="team-chart">TEAMWORK<br>
+					<div class="team-chart-div">
+						<div class="team-chart-div-one">
+							<span class="span-team-chart">65%</span>
 						</div>
 					</div> 
 				</div>
-				<div class="teamchart">TEAMWORK<br>
-					<div class="teamchart-div">
-						<div class="teamchart-div-1" style="width:65%">
-							<span class="spanteamchart">65%</span>
+				<div class="team-chart">TEAMWORK<br>
+					<div class="team-chart-div">
+						<div class="team-chart-div-one">
+							<span class="span-team-chart">65%</span>
 						</div>
 					</div> 
 				</div>
-				<div class="btnskill" align="right">
+				<div class="btn-skill" align="right">
 					<button class="btn-add-chart-right">Add Skills  
 						<i class="fas fa-plus"></i>
 					</button>
 				</div>
 			</div>
-			<div class="clearfix1"></div>
+			<div class="clearfix-one"></div>
 		</div>
 	</div>
 
@@ -188,7 +265,7 @@
 			<div class="experience-margin-left">
 				<h1 class="white-line">WORK EXPERIENCE</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-				<div class="khoi">
+				<div class="box">
 					<div class="item">
 						<h3>(2010 - 2019) ABC COMPANY</h3>
 						<p>Developer</p>
@@ -215,7 +292,7 @@
 			<div class="education-margin-right">
 				<h1 class="white-line">EDUCATION</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-				<div class="khoi">
+				<div class="box">
 					<div class="item">
 						<h3>(2010 - 2019) ABC COMPANY</h3>
 						<p>Developer</p>
@@ -239,27 +316,27 @@
 				</div>
 			</div>
 
-			<div class="clearfix1"></div>
+			<div class="clearfix-one"></div>
 		</div>
 	</div> -->
 
-		<div class="experience">
+	<div class="experience" style="clear: both;">
 		<div class="experience-margin">
 			<div class="experience-margin-left">
 				<h1 class="white-line">WORK EXPERIENCE</h1>
 				<p class="uedesu">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-				<div class="khoi">
-					<div class="item">
+				<div class="box-edu">
+					<div class="item-edu">
 						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
 						<p>Developer</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
 					</div>
-					<div class="item">
+					<div class="item-edu">
 						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
 						<p>Developer</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
 					</div>
-					<div class="item">
+					<div class="item-edu">
 						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
 						<p>Developer</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
@@ -276,7 +353,7 @@
 				<h1 class="white-line">EDUCATION</h1>
 				<p class="uedesuhai">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
 				<!--  -->
-				<div class="khoi-edu">
+				<div class="box-edu">
 					<div class="item-edu">
 						<h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
 						<p>Developer</p>
@@ -294,13 +371,13 @@
 					</div>
 				</div>
 				<div class="btn" align="right">
-					<button class="btn-add-experience">Add work experience  
+					<button class="btn-add-experience-add">Add work experience  
 						<i class="fas fa-plus"></i>
 					</button>
 				</div>
 			</div>
 
-			<div class="clearfix1"></div>
+			<div class="clearfix-one"></div>
 		</div>
 	</div>
 
@@ -391,7 +468,7 @@
 					<button class="addProject">Add Project  <i class="fas fa-plus"></i></button>
 				</div>
 			</div>
-			<div class="clearfix1"></div>
+			<div class="clearfix-one"></div>
 		</div>
 	</div> -->
 
@@ -449,7 +526,7 @@
 					<i class="fas fa-plus"></i>
 				</button>
 			</div>
-			<div class="clearfix1"></div>
+			<div class="clearfix-one"></div>
 		</div>
 	</div>
 
@@ -457,54 +534,55 @@
 		<div class="references-margin">
 			<h1>REFERENCES RENCES</h1>
 			<div class="slide">
-				<div class="references-margin-k">
-					<div class="references-margin-k-avarta" align="center">
+				<div class="references-margin">
+					<div class="references-margin-avarta" align="center">
 						<img src="images/Rectangle.png" alt="">
 					</div>
-					<div class="references-margin-k-text">
+					<div class="references-margin-text">
+						<span class="references-relative">“</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident ... 
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... 
+							<span class="references-absolute">”</span>
 						</p>
 					</div>
+					<div class="icon-check">
+						<ul>
+							<li><button type="submit"></button></li>
+							<li><button type="submit"></button></li>
+							<li><button type="submit"></button></li>
+						</ul>
+					</div>
 				</div>
-				<div class="btnprev">
+				<div class="btn-prev">
 					<
 				</div>
-				<div class="btnnext">
+				<div class="btn-next">
 					>
 				</button>
 			</div>
-			<div class="btnaddrefer" align="center">
-				<button class="addreferences" align="center"> Add References  <i class="fas fa-plus"></i></button>
+			<div class="btn-add-refer" align="center">
+				<button class="add-references"> Add References  <i class="fas fa-plus"></i></button>
 			</div>
 		</div>
-		<div class="clearfix1"></div>
+		<div class="clearfix-one"></div>
 	</div>
 </div>
-<div class="footer">
-	<details>
-		<summary>2019 Flatos.com All right reserved.</summary>
-		<h2>Cuoc song la nhung trai nghiem</h2>
-		<h3>du cho - ngay mai - khong duoc - tiep tuc</h3>
-	</details>
-</div>
-</div>		
 
+<div class="footer">
+	<p>2019 Flatos.com All right reserved</p>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 <script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	$(document).ready(function(){
 		$("#slide11111111").owlCarousel({
 			loop: true,
 			items: 1
 		});
 	});
-</script>
+</script> -->
 </body>
 </html>

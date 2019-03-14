@@ -1,7 +1,7 @@
 body {
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	height: auto;
 	color: #ffffff;
 	font-family: 'Poppins';
@@ -11,11 +11,12 @@ body {
 .menu ul {
 	display: flex;
 	justify-content: center;
+	padding-left: 0;
 }
 
 ul li {
 	list-style-type: none;
-	margin-right: 25px;
+	margin-right: 12px;
 }
 
 ul li a {
@@ -30,12 +31,34 @@ ul li a:hover {
 	font-weight: bold;
 }
 
+p {
+	text-align: justify;
+	margin:0;
+	padding:0;
+}
+
 .bumble {
 	margin-top: -35px;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 	width: 176px;
 	height: 2px;
 	background-image: linear-gradient(#FB644D, #F64C71);
+}
+
+.avatar-img .avatar-camera {
+	width: 150px;
+    height: 33px;
+    line-height: 26px;
+    text-align: center;
+    bottom: -5px;
+    left: 0;
+}
+
+.avatar-camera {
+    color: rgba(255,255,255,0.75);
+    display: block; 
+    background: rgba(58,57,57, 0.8);
+    position: absolute;
 }
 
 .bumble .line {
@@ -45,14 +68,7 @@ ul li a:hover {
 
 .infor table {
 	font-size: 14px;
-	margin-left:80px;
-}
-
-.nhay {
-	font-family: 'PortLligatSans';
-	font-size: 80px;
-	top: 0;
-	left: -38px;
+	margin-left: 80px;
 }
 
 .btn-edit-profile {
@@ -60,6 +76,9 @@ ul li a:hover {
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
 	margin-top: 15px;
+	margin-left: -25px;
+	width: 134px;
+	height: 36px;
 	background-color: rgba(0,0,0,0);
 	cursor: pointer;
 }
@@ -78,12 +97,12 @@ ul li a:hover {
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
 	margin-top: 15px;
-	margin-bottom:45px;
+	margin-bottom: 45px;
 	background-color: rgba(0,0,0,0);
 	cursor: pointer;
 }
 
-.btnsumary {
+.btn-sumary {
 	margin-left: -25px;
 }
 
@@ -93,6 +112,8 @@ ul li a:hover {
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
 	margin-bottom:45px;
+	width: 151px;
+	height: 36px;
 	margin-top: 15px;
 	background-color: rgba(0,0,0,0);
 	cursor: pointer;
@@ -130,7 +151,40 @@ ul li a:hover {
 .header-left-img img {
 	margin-top: -25px;
 	position: relative;
+	width: 100%;
+	height: 600px;
 }
+
+/*.header-left {
+	overflow: hidden;
+}
+
+.header-left-img img {
+	margin-top: -25px;
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+.header-left-img .avatar-camera-left {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	bottom: -44px;
+	right: -44px;
+}
+
+.header-left-img .avatar-camera-left i {
+	margin-left: 35px;
+    margin-top: 30px;
+}
+
+.avatar-camera-left {
+	color: rgba(255,255,255,0.75);
+	display: block;
+	background: rgba(58,57,57, 0.8);
+	position: absolute;
+}*/
 
 .header-left-text {
 	width: 70%;
@@ -140,13 +194,16 @@ ul li a:hover {
 	left: 20%;
 }
 
-.header-left-text h2 {
-	font-size: 40px;
+.header-right .line {
+	width: 450px;
+	margin-left: 110px;
+	margin-bottom: 15px;
+	height: 0;
+	border: 1px solid #F64C71;
 }
 
-.header-left-img img {
-	width: 100%;
-	height: 600px;
+.header-left-text h2 {
+	font-size: 40px;
 }
 
 .header-right{
@@ -178,6 +235,20 @@ ul li a:hover {
 	padding: 10px 20px;
 	margin-right: 50px;
 	margin-bottom: 25px;
+	width: 198px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	margin-top: 15px;
+	background-color: rgba(0,0,0,0);
+	cursor: pointer;
+}
+
+.btn-add-experience-add {
+	clear: both;
+	padding: 10px 20px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+	width: 198px;
 	color: #ffffff;
 	border: 1px solid #ffffff;
 	margin-top: 15px;
@@ -245,14 +316,20 @@ h1:after {
 	font-size: 18px
 }
 
-.avatar-img img {
-	width: 150px;
-	height: 150px;
-	clear: both;
-	border: 1px #d4d4d4 solid;
-	padding: 5px;
+.avatar-img {
 	position: relative;
-	border-radius:50%;
+    width: 150px;
+    margin-top: -8px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.avatar-img img {
+	display: inherit;
+    max-width: 100%;
 }
 
 .infor table tr td {
@@ -261,26 +338,12 @@ h1:after {
 	font-size: 14px;
 }
 
-.infor table tr .trtd {
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-}
-
 .icon img {
 	position: absolute;
 	margin-left:335px;
 	margin-top: -50px;
 	width:25px;
 	height: 25px;
-}
-
-.header-right .line {
-	width: 450px;
-	margin-left: 110px;
-	margin-bottom: 15px;
-	height: 0px;
-	border: 1px solid #F64C71;
 }
 
 .professional {
@@ -306,12 +369,6 @@ h1:after {
 
 .professional p {
 	text-align: justify;
-}
-
-p {
-	text-align: justify;
-	margin:0;
-	padding:0;
 }
 
 .skills {
@@ -398,41 +455,74 @@ p {
 	float:left;
 }
 
-.khoi-edu {
+.box-edu {
 	position: relative;
-	padding-left: 75px;
-	padding-right: 30px;
-	margin-left: 0px;
+	padding-left: 82px
 }
 
 .item-edu {
 	position: relative;
 	padding: 10px;
-	margin-left:25px;
 	border: 1px solid #ffffff;
 	margin-bottom: 10px;
 	z-index: 9;
 }
 
-.khoi-edu:before {
+.box-edu:before {
 	content: '';
 	position: absolute;
-	left: 40px;
+	left: 25px;
 	top: 0;
 	height: 100%;
 	width: 0;
-	border-left: 1px solid #ffffff;
+	border-left: 2px solid #ffffff;
 }
 
-.khoi-edu:after {
+.box-edu:after {
 	content: '';
 	position: absolute;
 	top: 0;
 	height: 0;
 	left: 25px;
 	width: 10px;
-	border-top: 1px solid #ffffff;
+	border-top: 2px solid #ffffff;
 	margin-left: 10px;
+}
+
+.education-margin-right .uedesuhai {
+	padding-left: 15px;
+}
+
+.education-margin-right .box-edu {
+	padding-left: 102px
+}
+
+.education-margin-right .box-edu:before {
+	left: 50px;
+}
+
+.education-margin-right .box-edu:after {
+	left: 16px;
+}
+
+.experience-margin-left .box-edu .item-edu {
+	margin-right: 45px;
+}
+
+.education-margin-right .box-edu:after {
+	left: 35px;
+}
+
+.experience-margin-left .box-edu:after {
+	left: 15px;
+}
+
+.experience-margin-left .box-edu:before {
+	left: 30px;
+}
+
+.education-margin-right .box-edu .item-edu {
+	margin-right: 30px;
 }
 
 .item-edu:before {
@@ -440,17 +530,17 @@ p {
 	position: absolute;
 	top: 50%;
 	height: 0;
-	left: -35px;
-	width: 55px;
+	left: -31px;
+	width: 50px;
 	margin-left: -20px;
-	border-top: 1px dotted #ffffff;
+	border-top: 2px dotted #ffffff;
 	z-index: 1;
 }
 
 .item-edu:after {
 	content: '';
 	position: absolute;
-	left: -60px;
+	left: -51px;
 	top: calc(50% - 6px);
 	width: 0;
 	height: 0;
@@ -460,21 +550,21 @@ p {
 	z-index: 999999999999999999999999999999999999999999999
 }
 
-.khoi-edu .item-edu h3 {
+.box-edu .item-edu h3 {
 	margin-bottom: -4px;
 	margin-top: 2px;
 }
 
-.khoi .item h3 {
+.box .item h3 {
 	margin-bottom: -4px;
 	margin-top: 2px;
 }
 
-.khoi {
+.box {
 	position: relative;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-left:15px;
+	
 }
 
 .item {
@@ -486,27 +576,10 @@ p {
 	z-index: 9;
 }
 
-.references-margin-k-text p {
-	display: inline-block;
-}
-
-.references-margin-k-text p:before {
-	content: "“";
-	font-family: 'Port Lligat Sans';
-	font-size:30px;
-}
-
-.references-margin-k-text p:after {
-	content: "”";
-	font-family: 'Port Lligat Sans';
-	width: 0;
-	height: 0;
-	width: 25px;
-	font-size:30px;
-}
+/**/
 
 .portfolio {
-	width:100%;
+	width: 100%;
 	height: auto;
 	padding-top:10px;
 	padding-bottom: 45px;
@@ -554,9 +627,10 @@ p {
 	float: left;
 }
 
-.references-margin-k-avarta img {
+.references-margin-avarta img {
 	width: 150px;
 	height: 150px;
+	margin-right: 30px;
 	border-radius: 50%;
 	padding:5px;
 	border: 1px solid #ffffff;
@@ -574,51 +648,54 @@ p {
 	font-size: 18px
 }
 
-.btnprev {
+.btn-prev {
 	position: absolute;
 	top: 40%;
+	margin-left: 60px;
 }
 
-.btnnext {
+.btn-next {
 	float: right;
 	top: 40%;
 	margin-left: 15px;
-	left: 100%;
+	left: 99%;
 	position: absolute;
 }
 
-.references-margin-k .references-margin-k-text p {
+.references-margin .references-margin-text p {
 	clear: both;
+	width: 67%;
 	text-align: justify;
 	padding-left: 15px;
+	margin-top: 35px;
 }
 
-.references-margin-k .references-margin-k-text {
+.references-margin .references-margin-text {
 	float: left;
 	width: 5%;
 }
 
-.khoangcach {
+.distance {
 	float: left;
 	margin: 25px 6%;
 }
 
-.addreferences {
+.add-references {
 	color: #ffffff;
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
 	margin-top: 15px;
-	margin-right: 0px;
+	width: 169px;
 	background-color: rgba(0,0,0,0);
 	cursor: pointer;
 }
 
-.references-margin-k .references-margin-k-avarta {
+.references-margin .references-margin-avarta {
 	float: left;
 	width: 25%;
 }
 
-.references-margin-k .references-margin-k-text {
+.references-margin .references-margin-text {
 	float: left;
 	width: 70%;
 }
@@ -638,21 +715,6 @@ p {
 	float: left;
 }
 
-.project .project-skill .project-skill-1 {
-	width: 100%;
-	height: 200px;
-}
-
-.project .project-skill .images1 img {
-	padding-top: 10%;
-}
-
-.project .project-skill .images2 img {
-	padding-top: 30%;
-	width: 222px;
-	height: 200px;
-}
-
 .folder {
 	width: 100%;
 }
@@ -660,6 +722,10 @@ p {
 .folder .folder-margin {
 	width: 25%;
 	float: left;
+}
+
+.team-chart-div-one {
+	width: 65%;
 }
 
 .folder .folder-margin .folder-margin-img {
@@ -696,6 +762,7 @@ p {
 	color: #ffffff;
 	margin-left: 90px;
 	margin-top: 100px;
+	width: 139px;
 	padding: 10px 20px;
 	background-color: rgba(0,0,0,0);
 	cursor: pointer;
@@ -714,7 +781,7 @@ p {
 	width: 100%;
 }
 
-.clearfix1 {
+.clearfix-one {
 	display: block;
 	clear: both;
 }
@@ -732,31 +799,90 @@ p {
 	src:url(../fonts/PortLligatSans-Regular.ttf);
 }
 
-.teamchart {
+.btn-prev,
+.btn-next {
+	font-size: 25px;
+}
+
+.references-relative {
+	position: relative;
+	font-size: 80px;
+	font-family: 'Port Lligat Sans';
+	float: left;
+	margin-top: 9px;
+    margin-left: -15px;
+}
+
+.references-margin-text p {
+	position: absolute;
+	float: left;
+}
+
+.references-absolute {
+	position: absolute;
+	font-size: 80px;
+	font-family: 'Port Lligat Sans';
+	float: left;
+	margin-top: -5px;
+    margin-left: 0;
+}
+
+.btn-add-refer {
+	clear: both;
+}
+
+.icon-check {
+	clear: both;
+	margin-left:43%;
+}
+
+.icon-check ul li {
+	float: left;
+}
+
+.icon-check ul li button {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	padding:5px;
+	border: 0;
+}
+
+.icon-camera {
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -40px;
+	background: rgba(58, 57, 57, 0.8);
+	width: 150px;
+	height: 150px;
+	
+}
+
+.team-chart {
 	padding-top: 25px;
 	margin-left: 40px;
 	margin-right:30px;
 	position: relative!important;
 }
 
-.btnskill {
-	margin-right:30px;
+.btn-skill {
+	margin-right: 30px;
 }
 
-.teamchart-div {
+.team-chart-div {
 	background-color: #ffffff;
 	border-radius: 3px;
 	height: 7px;
 	margin-top: 10px;
 }
 
-.teamchart-div .teamchart-div-1 {
+.team-chart-div .team-chart-div-one {
 	background: linear-gradient(90.71deg, #F64C71 0.6%, #FB634E 50.01%);
 	border-radius: 3px;
 	height: 100%;
 }
 
-.spanteamchart {
+.span-team-chart {
 	right: 148px;
 	top: 35px;
 	position: absolute!important;
@@ -765,12 +891,105 @@ p {
 .footer {
 	clear: both;
 	width: 100%;
-	text-align: center;
 	line-height: 50px;
 	background: #0C0C5E;
 }
 
-.btnprev,
-.btnnext {
-	font-size: 25px;
+.footer p {
+	text-align: center;
+}
+
+.cv-canvas span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.cv-canvas-percen {
+    margin-top: 43px;
+}
+
+.cv-canvas span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.cv-canvas-content {
+    margin-top: 110px;
+}
+
+.circle-chart {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin: 30px;
+    position: relative;
+
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.circle-chart__background {
+    stroke: #ffffff;
+    stroke-width: 2;
+    fill: none;
+}
+
+.success-stroke {
+    stroke: #F64C71;
+}
+
+.circle-chart__circle {
+    stroke: #F64C71;
+    stroke-width: 2;
+    stroke-linecap: square;
+    fill: none;
+    animation: circle-chart-fill 2s reverse;
+    transform: rotate(-360deg);
+    transform-origin: center;
+}
+
+.circle-chart__info {
+    animation: circle-chart-appear 2s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+}
+
+span {
+	position: absolute;
+}
+
+.span-white-per-number {
+	margin-left: -98px;
+	margin-top: 70px;
+}
+
+.span-white-per-text {
+	padding-left: 30px;
+}
+
+.btn-add-chart-skill {
+	margin-top: 55px;
+}
+
+.btn-add-chart-left{
+	color: #ffffff;
+	padding: 10px 20px;
+	border: 1px solid #F64C71;
+	margin-top: 15px;
+	margin-bottom: 45px;
+	background-color: rgba(0,0,0,0);
+	cursor: pointer;
+	margin-bottom: 104px;
+}
+
+.chart-mazu {
+	margin-left: 12px;
 }

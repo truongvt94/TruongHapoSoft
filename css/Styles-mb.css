@@ -38,15 +38,12 @@
         right: 110px;
     }
 
-    .btn-edit-profile {
-        margin-left: 0;
+    .span-white-per-number {
+
     }
 
-    .btn-add-chart-left {
-        margin-bottom: 0;
-        margin-top: -3%;
-        margin-left: 70%;
-        width: 121px;
+    .btn-edit-profile {
+        margin-left: 0;
     }
 
     .header-left-text .ruby {
@@ -142,9 +139,9 @@
     }
 
     .btn-sumary {
-        float: none;
         margin-top: 35px;
-        margin-right: 30%;
+        text-align: center;
+        margin-left: 0;
     }
 
     .professional-margin {
@@ -558,12 +555,6 @@
 
     .experience-margin-left .box-edu .item-edu:after {
         left: -27px;
-    }
-
-    .btn-sumary {
-        float: none;
-        margin-top: 35px;
-        margin-right: 30%;
     }
 
     .professional-margin {

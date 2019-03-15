@@ -1,4 +1,5 @@
-@media (max-width: 575px) {
+@media (max-width: 575px) 
+{
     .bumble {
         width: 50px;
     }
@@ -820,7 +821,7 @@
 	}
 
 	.circle-owari {
-		margin-bottom: -30px;
+		margin-bottom: -29px;
 	}
 
 	.header-left-text {

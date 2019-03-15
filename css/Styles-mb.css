@@ -829,6 +829,9 @@
 		top: 265px;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c50a50b... change size -> space
+=======
 >>>>>>> parent of c50a50b... change size -> space
 =======
 >>>>>>> parent of c50a50b... change size -> space
@@ -847,6 +850,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .circle {
@@ -855,6 +859,10 @@
         max-width: 33.333333%;
     }
 }
+=======
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+>>>>>>> parent of c50a50b... change size -> space
 =======
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }

@@ -16,9 +16,9 @@
 		<div class="header-left">
 			<div class="header-left-img">
 				<img src="images/Rectangle.png" title="imgage">
-				<!-- <a class="avatar-camera-left" href="#" title="avarta">
+				<a class="avatar-camera-left" href="#" title="avarta">
 					<i class="fas fa-camera"></i>
-				</a> -->
+				</a>
 			</div>
 			<div class="header-left-text">
 				<h2>BUMBLEBEE WALKER</h2>
@@ -106,7 +106,73 @@
 			<div class="skills-left">
 				<h1>PROFESSIONAL SKILLS</h1>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-				<div class="div-mazu">
+
+				<div class="chart-row">
+					<div class="circle" style="" data-percentage="50">
+						<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+							<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+							<circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9" r="15.9">
+							</circle>
+							<g class="circle-chart__info">
+								<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+							</g>
+						</svg>
+						<span class="span-white-per-number">75%</span><br>
+						<p class="span-white-per-text">HTML/CSS</p>
+					</div>
+					<div class="circle" style="" data-percentage="50">
+						<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+							<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+							<circle class="circle-chart__circle success-stroke" stroke-dasharray="65,100" cx="16.9" cy="16.9" r="15.9">
+							</circle>
+							<g class="circle-chart__info">
+								<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+							</g>
+						</svg>
+						<span class="span-white-per-number">65%</span><br>
+						<p class="span-white-per-text">HTML/CSS</p>
+					</div>
+					<div class="circle" style="" data-percentage="50">
+						<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+							<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+							<circle class="circle-chart__circle success-stroke" stroke-dasharray="55,100" cx="16.9" cy="16.9" r="15.9">
+							</circle>
+							<g class="circle-chart__info">
+								<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+							</g>
+						</svg>
+						<span class="span-white-per-number">55%</span><br>
+						<p class="span-white-per-text">HTML/CSS</p>
+					</div>
+					<div class="circle" style="" data-percentage="50">
+						<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+							<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+							<circle class="circle-chart__circle success-stroke" stroke-dasharray="65,100" cx="16.9" cy="16.9" r="15.9">
+							</circle>
+							<g class="circle-chart__info">
+								<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+							</g>
+						</svg>
+						<span class="span-white-per-number">65%</span><br>
+						<p class="span-white-per-text">HTML/CSS</p>
+					</div>
+					<div class="circle" style="" data-percentage="50">
+						<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+							<circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+							<circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9" r="15.9">
+							</circle>
+							<g class="circle-chart__info">
+								<text class="circle-chart__percent" x="17.9" y="15.5"></text>
+							</g>
+						</svg>
+						<span class="span-white-per-number">75%</span><br>
+						<p class="span-white-per-text">HTML/CSS</p>
+					</div>
+					<div class="circle">
+						<button class="btn-add-chart">Add Skills <i class="fas fa-plus"></i></button>
+					</div>
+				</div>
+				<!-- <div class="div-mazu">
 					<div class="chart-mazu" style="float: left;">
 						<div class="circle" style="" data-percentage="50">
 							<svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
@@ -176,7 +242,7 @@
 							<button class="btn-add-chart-left" type="submit">Add Skills</button>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- <div class="page" align="center">
 					<div class="clearfix">
 						<div class="c100 p90 distance">
@@ -320,7 +386,7 @@
 		</div>
 	</div> -->
 
-	<div class="experience" style="clear: both;">
+	<div class="experience"">
 		<div class="experience-margin">
 			<div class="experience-margin-left">
 				<h1 class="white-line">WORK EXPERIENCE</h1>
@@ -522,11 +588,14 @@
 						<img src="images/project-black.jpg" alt="">
 					</div>
 				</div>
-				<button class="btn-add-pj" align="center"> Add Project  
-					<i class="fas fa-plus"></i>
-				</button>
+				<div class="btn-folder">
+					<button class="btn-add-pj"> Add Project  
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
+				<div class="clearfix-one"></div>
 			</div>
-			<div class="clearfix-one"></div>
+			
 		</div>
 	</div>
 
@@ -569,13 +638,30 @@
 		<div class="clearfix-one"></div>
 	</div>
 </div>
-
-<div class="footer">
-	<p>2019 Flatos.com All right reserved</p>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
-<script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
+<!-- <h1 class="title">Refer</h1>
+        <div class="slider single-item" role="toolbar">
+            <div>
+                <div style="float: left;">Day la img</div>
+                <div style="float: left;">Day la img</div>
+            </div>
+             <div>
+                <div style="float: left;">Day la img</div>
+                <div style="float: left;">Day la img</div>
+            </div>
+             <div>
+                <div style="float: left;">Day la img</div>
+                <div style="float: left;">Day la img</div>
+            </div>            
+        </div> -->
+        <div class="footer">
+        	<p>2019 Flatos.com All right reserved</p>
+        </div>
+        <script src="Scripts/jquery-1.10.2.js"></script>
+        <script src="Scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="Scripts/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
 <!-- <script type="text/javascript">
 	$(document).ready(function(){
 		$("#slide11111111").owlCarousel({

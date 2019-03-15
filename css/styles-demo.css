@@ -43,7 +43,6 @@ p {
 	height: 575px;
 	background: #242581;
 	clear: both;
-	overflow: hidden;
 }
 
 .header-left {
@@ -92,33 +91,6 @@ p {
 .header-right .bumble-walker h2{
 	margin-top: -5px;
 	margin-bottom: -15px;
-}
-
-.header-left {
-	overflow: hidden;
-}
-.header-left-img img {
-	margin-top: -25px;
-	position: relative;
-	width: 100%;
-	height: 600px;
-}
-.header-left-img .avatar-camera-left {
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	bottom: -44px;
-	right: -44px;
-}
-.header-left-img .avatar-camera-left i {
-	margin-left: 35px;
-	margin-top: 30px;
-}
-.avatar-camera-left {
-	color: rgba(255,255,255,0.75);
-	display: block;
-	background: rgba(58,57,57, 0.8);
-	position: absolute;
 }
 
 .header-right .bumble-walker p {
@@ -223,10 +195,6 @@ p {
 	cursor: pointer;
 }
 
-.btn-skill-add {
-	margin: 30px;
-}
-
 .btn-add-experience-add {
 	clear: both;
 	padding: 10px 20px;
@@ -263,18 +231,11 @@ p {
 	position: absolute;
 }
 
-.btn-folder {
-	height: 250px;
-	width: 25%;
-    float: left;
-    line-height: 250px;
-    text-align: center;
-}
-
 .btn-add-pj {
-
 	border: 1px solid #F64C71;
 	color: #ffffff;
+	margin-left: 90px;
+	margin-top: 100px;
 	width: 139px;
 	padding: 10px 20px;
 	background-color: rgba(0,0,0,0);
@@ -282,17 +243,18 @@ p {
 }
 
 .btn-add-chart-skill {
-	
+	margin-top: 55px;
 }
 
 .btn-add-chart-left{
 	color: #ffffff;
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
-
-
+	margin-top: 15px;
+	margin-bottom: 45px;
 	background-color: rgba(0,0,0,0);
 	cursor: pointer;
+	margin-bottom: 104px;
 }
 
 .btn-edit-profile {
@@ -359,6 +321,10 @@ p {
 	margin: 0 auto;
 }
 
+.professional-margin h1 {
+	margin-left: -50%;
+}
+
 .professional p {
 	text-align: justify;
 }
@@ -414,28 +380,6 @@ p {
 .chart-mazu {
 	margin-left: 12px;
 }
- .chart-row {
- 	display: -ms-flexbox;
-	  display: flex;
-	  -ms-flex-wrap: wrap;
-	  flex-wrap: wrap;
-	  margin-right: -15px;
-	  margin-left: -15px;
-	  justify-content: center;
-  align-items: center;
- }
- .chart-row:last-child {
- 	margin-bottom: 45px;
- }
-
- .circle {
- 	position: relative;
-  width: 100%;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
- }
- 
 
 .circle-chart {
 	width: 100px;
@@ -603,7 +547,7 @@ span {
 }
 
 .education-margin-right .box-edu:after {
-	margin-left: 30px;
+	left: 35px;
 }
 
 .experience-margin-left .box-edu:after {
@@ -797,14 +741,14 @@ span {
 /*end project*/
 .references {
 	width: 100%;
-	padding-bottom: 30px;
+	padding-bottom:30px;
 	background: #2F2FA1;
 }
 
 .references .references-margin {
 	width: 81%;
 	height: auto;
-	margin: 0 auto;
+	margin:0 auto;
 }
 
 .references-margin .flo {
@@ -965,7 +909,7 @@ h1:after {
 
 .white-line:before {
 	content: "";
-	background: #ffffff;
+	background-image: linear-gradient(#ffffff);
 	display: block;
 	float: right;
 	width: 50px;
@@ -974,71 +918,13 @@ h1:after {
 
 .white-line:after {
 	content: "";
-	background: #ffffff;
+	background-image: linear-gradient(#ffffff);
 	display: block;
 	width: 100px;
 	position: absolute;
 	float: right;
 }
 /*and before va after*/
-/*Slide*/
-.slider {
-	width: 600px;
-	margin: 0 auto;
-}
-.title {
-	text-align: center;
-	margin-top: 50px;
-}
-.slick-dots li button:before {
-	font-size: 20px;
-}
-.slider h1 {
-	background: #fff;
-	color: #3498db;
-	font-size: 36px;
-	line-height: 100px;
-	margin: 10px;
-	padding: 2%;
-	position: relative;
-	text-align: center;
-	height: 100%;
-}
-.slider img {
-	background: #fff;
-	color: #3498db;
-	font-size: 36px;
-	line-height: 100px;
-	margin: auto;
-	padding: 2%;
-	position: relative;
-	text-align: center;
-	height: 100%;
-}
-
-.buttons {
-	padding: 0 20px 20px;
-	margin: 40px auto;
-	width: 600px;
-}
-.button {
-	background: #3498db;
-	color: #fff;
-	display: block;
-	font-size: 16px;
-	margin: 20px auto;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	width: 41%;
-}
-.buttons .button {
-	background: #FFF;
-	color: #3498db;
-	float: left;
-	margin: 5px;
-}
-/*and slide*/
 /*footer*/
 .footer {
 	clear: both;
@@ -1048,7 +934,7 @@ h1:after {
 }
 
 .footer p {
-    text-align: center;
+	text-align: center;
 }
 
 .clearfix {

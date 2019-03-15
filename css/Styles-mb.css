@@ -21,25 +21,13 @@
 		text-align: center;
 	}
 
-	.header-left-img .avatar-camera-left {
-		display: none;
-	}
-
 	.header-right .bumble-walker h2 {
 		margin-top: 10px;
 		margin-bottom: -5px;
 	}
 
 	.header-right .bumble-walker p {
-		margin-bottom: 0;
-	}
-
-	.span-team-chart {
-		right: 110px;
-	}
-
-	.btn-edit-profile {
-		margin-left: 0;
+		margin-bottom: 0px;
 	}
 
 	.btn-add-chart-left {
@@ -183,7 +171,6 @@
 		margin-left: 2%;
 		text-align: justify;
 		font-size: 16px;
-		margin-top: 25px;
 	}
 
 	.skills-left p {
@@ -191,19 +178,6 @@
 		margin: 0 auto;
 		font-size: 14px;
 		padding-right: 0;
-	}
-
-	.btn-folder {
-		line-height: 180px;
-		margin-left: 25px;
-	}
-	.chart-row:last-child {
-		margin-bottom: 0px;
-		text-align: center;
-	}
-
-	.span-white-per-text {
-		padding-left: 55px;
 	}
 
 	h1 {
@@ -218,6 +192,11 @@
 
 	.skills-right p {
 		font-size: 14px;
+	}
+
+	.skills-left h1 {
+		text-align: justify;
+		margin-top: 10px;
 	}
 
 	.skills-right {
@@ -267,10 +246,6 @@
 	.education-margin-right .uedesuhai {
 		padding-left: 0;
 		width: 106%;
-	}
-
-	.portfolio {
-		padding-bottom: 0;
 	}
 
 	.portfolio .portfolio-margin {
@@ -338,7 +313,8 @@
 	}
 
 	.btn-add-pj {
-		
+		margin-left: 5%;
+		margin-top: 65px;
 	}
 
 	.box-edu .item-edu h3 {
@@ -421,11 +397,6 @@
 		left: 40px;
 		top: 265px;
 	}
-	.circle {
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%;
-	}
 }
 
 @media (max-width: 767px) {
@@ -439,14 +410,8 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) { ... }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-	.circle {
-		-ms-flex: 0 0 33.333333%;
-		flex: 0 0 33.333333%;
-		max-width: 33.333333%;
-	}
-}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }

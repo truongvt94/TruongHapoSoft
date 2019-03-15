@@ -1,0 +1,842 @@
+@media (max-width: 575px){
+    .bumble {
+        width: 50px;
+    }
+
+    .header-left-text h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .infor table {
+        margin-left: -10px;
+        margin-top:20px;
+    }
+
+    .header {
+        height: 690px;
+    }
+
+    .header-left-text p {
+        text-align: center;
+    }
+
+    .header-left-img .avatar-camera-left {
+        display: none;
+    }
+
+    .header-right .bumble-walker h2 {
+        margin-top: 10px;
+        margin-bottom: -5px;
+    }
+
+    .header-right .bumble-walker p {
+        margin-bottom: 0;
+    }
+
+    .span-team-chart {
+        right: 110px;
+    }
+
+    .span-white-per-number {
+
+    }
+
+    .btn-edit-profile {
+        margin-left: 0;
+    }
+
+    .header-left-text .ruby {
+        margin-top: 10px;
+    }
+
+    .distance {
+        margin: 25px 9%;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-left img {
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+
+    .header-left-text {
+        display: inline;
+        width: 80%;
+        position: absolute;
+        margin-top: -205px;
+    }
+
+    .header-left-text .bumble {
+        margin-left: 70px;
+        margin-top: -15px;
+        margin-bottom: -10px;
+        width: 160px;
+    }
+    .header-right {
+        width: 100%;
+    }
+
+    .avatar-img img {
+
+    }
+
+    .avatar-img {
+        top: -100px;
+    }
+
+    .bumble-walker h2 {
+        text-align: center;
+    }
+
+    .bumble-walker p {
+        text-align: center;
+    }
+
+    .header-right .line {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .box-edu {
+        width: 92%;
+        margin-left: -23px;
+    }
+
+    .team-chart {
+        margin: 5px;
+    }
+
+    .education-margin-right .box-edu {
+        width: 90%;
+        margin-left: -50px;
+    }
+
+    .education-margin-right .box-edu .item-edu {
+        margin-right: 0;
+        margin-left: -24px;
+    }
+
+    .education-margin-right .item-edu:after {
+        left: -27px;
+    }
+    .education-margin-right .item-edu:before {
+        width: 25px;
+        left: -5px;
+    }
+
+    .experience-margin-left .box-edu .item-edu:before {
+        width: 25px;
+        left: -6px;
+    }
+
+    .experience-margin-left .box-edu .item-edu:after {
+        left: -27px;
+    }
+
+    .btn-sumary {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .professional-margin {
+        width: 95%;
+    }
+
+    .professional p {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .professional-margin h1 {
+        font-size: 16px;
+        margin-left:2%;
+    }
+
+    .page {
+        margin-top: 0;
+    }
+
+    .btn-edit-sumary {
+        margin-right: 0;
+        margin-top: -35px;
+        margin-bottom: 35px;
+    }
+
+    .skills-margin {
+        width: 95%;
+    }
+
+    .skills-left {
+        width: 100%;
+    }
+
+    .skills-left h1 {
+        margin-left: 2%;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .skills-left p {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .btn-folder {
+        line-height: 180px;
+        margin-left: 25px;
+    }
+    .chart-row:last-child {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .span-white-per-text {
+        padding-left: 55px;
+    }
+
+    h1 {
+        margin-top: 35px;
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .skills-right p {
+        font-size: 14px;
+    }
+
+    .skills-right {
+        clear: both;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .btn-skill {
+        width: 65%;
+        margin-right: 0;
+    }
+
+    .btn-skill-add{
+        clear: both;
+    }
+
+    .experience-margin .experience-margin-left {
+        width: 95%;
+    }
+
+    .btn-add-chart-right {
+        margin-bottom: 35px;
+    }
+
+    .education-margin-right h1 {
+        padding-left: 0;
+    }
+
+    .white-line {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .btn-add-experience {
+        margin-left: 0;
+    }
+
+    .experience-margin {
+        width: 90%;
+    }
+
+    .experience-margin .education-margin-right {
+        width: 95%;
+    }
+
+    .education-margin-right .uedesuhai {
+        padding-left: 0;
+        width: 106%;
+    }
+
+    .portfolio {
+        padding-bottom: 0;
+    }
+
+    .portfolio .portfolio-margin {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+        margin-left: -13px;
+    }
+
+    .menu-portfolio ul li a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .menu-portfolio {
+        margin-left: -25px;
+    }
+
+    .portfolio-margin h1 {
+        margin-left: 15px;
+    }
+
+    .project {
+        width: 50%;
+    }
+
+    .menu {
+        width: 100%;
+        position: absolute;
+        top: -10px;
+    }
+
+    .header-right .bumble-walker {
+        margin-top: -95px;
+    }
+
+    .header-right .bumble-walker p {
+        font-family: 'Poppins';
+    }
+
+    .folder .folder-margin {
+        width: 50%;
+    }
+
+    .folder .folder-margin .folder-margin-imgg img {
+        width: 100%;
+    }
+
+    .folder .folder-margin .folder-margin-img {
+        height: 200px;
+        line-height: 20;
+    }
+
+    .folder .folder-margin .folder-margin-imgg {
+        width: 100%;
+        height: 400px;
+        line-height: 38;
+    }
+
+    .folder {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .btn-add-pj {
+
+    }
+
+    .box-edu .item-edu h3 {
+        font-size: 14px;
+    }
+
+    .experience-margin-left .box-edu .item-edu {
+        margin-right: 16px;
+        margin-left: -24px;
+    }
+
+    .experience-margin-left .uedesu {
+        width: 100%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .references-margin .references-margin-text {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+
+    .references-margin .references-margin-avarta {
+        width: 100%;
+        float: none;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .btn-prev {
+        top: 15%;
+        left: -25px;
+    }
+
+    .btn-next {
+        margin-left: -20px;
+        top: 15%;
+        left: 90%;
+    }
+
+    .icon-check {
+        margin-left: 70px;
+    }
+
+    .icon-check ul li {
+        float: left;
+        margin-top: 105px;
+    }
+
+    .references-margin-avarta img {
+        margin: 0;
+    }
+
+    .references-relative {
+        margin-left: -37px;
+        margin-top: -25px;
+    }
+
+    .references-margin .references-margin-text p {
+        width: 95%;
+        padding-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .references-relative
+    .references-absolute {
+        font-size: 60px;
+    }
+
+    .circle-owari {
+        margin-bottom: -30px;
+    }
+
+    .header-left-text {
+        display: inline-block;
+        left: 40px;
+        top: 265px;
+    }
+
+    .circle {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+=======
+    .bumble {
+        width: 50px;
+    }
+
+    .header-left-text h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .infor table {
+        margin-left: -10px;
+        margin-top:20px;
+    }
+
+    .header {
+        height: 690px;
+    }
+
+    .header-left-text p {
+        text-align: center;
+    }
+
+    .header-right .bumble-walker h2 {
+        margin-top: 10px;
+        margin-bottom: -5px;
+    }
+
+    .header-right .bumble-walker p {
+        margin-bottom: 0px;
+    }
+
+    .btn-add-chart-left {
+        margin-bottom: 0;
+        margin-top: -3%;
+        margin-left: 70%;
+        width: 121px;
+    }
+
+    .header-left-text .ruby {
+        margin-top: 10px;
+    }
+
+    .distance {
+        margin: 25px 9%;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-left img {
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+
+    .header-left-text {
+        display: inline;
+        width: 80%;
+        position: absolute;
+        margin-top: -205px;
+    }
+
+    .header-left-text .bumble {
+        margin-left: 70px;
+        margin-top: -15px;
+        margin-bottom: -10px;
+        width: 160px;
+    }
+    .header-right {
+        width: 100%;
+    }
+
+    .avatar-img img {
+        
+    }
+
+    .avatar-img {
+        top: -100px;
+    }
+
+    .bumble-walker h2 {
+        text-align: center;
+    }
+
+    .bumble-walker p {
+        text-align: center;
+    }
+
+    .header-right .line {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .box-edu {
+        width: 92%;
+        margin-left: -23px;
+    }
+
+    .team-chart {
+        margin: 5px;
+    }
+
+    .education-margin-right .box-edu {
+        width: 90%;
+        margin-left: -50px;
+    }
+
+    .education-margin-right .box-edu .item-edu {
+        margin-right: 0;
+        margin-left: -24px;
+    }
+
+    .education-margin-right .item-edu:after {
+        left: -27px;
+    }
+    .education-margin-right .item-edu:before {
+        width: 25px;
+        left: -5px;
+    }
+
+    .experience-margin-left .box-edu .item-edu:before {
+        width: 25px;
+        left: -6px;
+    }
+
+    .experience-margin-left .box-edu .item-edu:after {
+        left: -27px;
+    }
+
+    .professional-margin {
+        width: 95%;
+    }
+
+    .professional p {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .professional-margin h1 {
+        font-size: 16px;
+        margin-left:2%;
+    }
+
+    .page {
+        margin-top: 0;
+    }
+
+    .btn-edit-sumary {
+        margin-right: 0;
+        margin-top: -35px;
+        margin-bottom: 35px;
+    }
+
+    .skills-margin {
+        width: 95%;
+    }
+
+    .skills-left {
+        width: 100%;
+    }
+
+    .skills-left h1 {
+        margin-left: 2%;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .skills-left p {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    h1 {
+        margin-top: 35px;
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .skills-right p {
+        font-size: 14px;
+    }
+
+    .skills-left h1 {
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .skills-right {
+        clear: both;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .btn-skill {
+        width: 65%;
+        margin-right: 0;
+    }
+
+    .btn-skill-add{
+        clear: both;
+    }
+
+    .experience-margin .experience-margin-left {
+        width: 95%;
+    }
+
+    .btn-add-chart-right {
+        margin-bottom: 35px;
+    }
+
+    .education-margin-right h1 {
+        padding-left: 0;
+    }
+
+    .white-line {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .btn-add-experience {
+        margin-left: 0;
+    }
+
+    .experience-margin {
+        width: 90%;
+    }
+
+    .experience-margin .education-margin-right {
+        width: 95%;
+    }
+
+    .education-margin-right .uedesuhai {
+        padding-left: 0;
+        width: 106%;
+    }
+
+    .portfolio .portfolio-margin {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+        margin-left: -13px;
+    }
+
+    .menu-portfolio ul li a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .menu-portfolio {
+        margin-left: -25px;
+    }
+
+    .portfolio-margin h1 {
+        margin-left: 15px;
+    }
+
+    .project {
+        width: 50%;
+    }
+
+    .menu {
+        width: 100%;
+        position: absolute;
+        top: -10px;
+    }
+
+    .header-right .bumble-walker {
+        margin-top: -95px;
+    }
+
+    .header-right .bumble-walker p {
+        font-family: 'Poppins';
+    }
+
+    .folder .folder-margin {
+        width: 50%;
+    }
+
+    .folder .folder-margin .folder-margin-imgg img {
+        width: 100%;
+    }
+
+    .folder .folder-margin .folder-margin-img {
+        height: 200px;
+        line-height: 20;
+    }
+
+    .folder .folder-margin .folder-margin-imgg {
+        width: 100%;
+        height: 400px;
+        line-height: 38;
+    }
+
+    .folder {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .btn-add-pj {
+        margin-left: 5%;
+        margin-top: 65px;
+    }
+
+    .box-edu .item-edu h3 {
+        font-size: 14px;
+    }
+
+    .experience-margin-left .box-edu .item-edu {
+        margin-right: 16px;
+        margin-left: -24px;
+    }
+
+    .experience-margin-left .uedesu {
+        width: 100%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .references-margin .references-margin-text {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+
+    .references-margin .references-margin-avarta {
+        width: 100%;
+        float: none;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .btn-prev {
+        top: 15%;
+        left: -25px;
+    }
+
+    .btn-next {
+        margin-left: -20px;
+        top: 15%;
+        left: 90%;
+    }
+
+    .icon-check {
+        margin-left: 70px;
+    }
+
+    .icon-check ul li {
+        float: left;
+        margin-top: 105px;
+    }
+
+    .references-margin-avarta img {
+        margin: 0;
+    }
+
+    .references-relative {
+        margin-left: -37px;
+        margin-top: -25px;
+    }
+
+    .references-margin .references-margin-text p {
+        width: 95%;
+        padding-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .references-relative
+    .references-absolute {
+        font-size: 60px;
+    }
+
+    .circle-owari {
+        margin-bottom: -29px;
+    }
+
+    .header-left-text {
+        display: inline-block;
+        left: 40px;
+        top: 265px;
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .circle {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}

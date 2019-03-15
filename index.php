@@ -1,353 +1,588 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Thuc Hanh HTML, CSS, JS</title>
-	<link rel="stylesheet" type="text/css" href="css/Styles.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.green.min.css">
-	<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
-	
+    <title>Hapo - TruongVT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Styles.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.green.min.css">
+    <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/Styles-mb.css">
 </head>
 <body>
-	<div class="header1">
-		<div class="header-left">
-			<div class="header-left-img">
-				<img src="images/shashin.png" title="imgage">
-			</div>
-			<div class="header-left-text">
-				<h1>BUMBLEBEE WALKER</h1>
-				<p style="width: 150px;border: 1px solid red;"></p>
-				<p>Ruby on Rail Developer</p>
-			</div>
-		</div>
-		<div class="header-right">
-			<div class="menu">
-				<ul>
-					<li><a href="#">English</a></li>
-					<li><a href="#">Japanese</a></li>
-				</ul>
-			</div>
-			<div class="DD-tron" align="center">
-				<img src="images/Untitled1.png" title="avatar">
-			</div>
-			
-			<!-- <div class="icon">
-				<img src="images/iconCamera.png" alt="upload">
-			</div> -->
-			<div class="Bumble">
-				<h2>Bumblebee Walker</h2>
-				<p>25/12/1992</p>
-			</div>
-			<div class="line" align="center">
+    <div class="header">
+        <div class="header-left">
+            <div class="header-left-img">
+                <img src="images/Rectangle.png" title="imgage">
+                <!-- <a class="avatar-camera-left" href="#" title="avarta">
+                    <i class="fas fa-camera"></i>
+                </a> -->
+            </div>
+            <div class="header-left-text">
+                <h2>BUMBLEBEE WALKER</h2>
+                <p class="bumble"></p>
+                <p class="ruby">Ruby on Rail Developer</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Japanese</a></li>
+                </ul>
+            </div>
+            <div class="clearfix-one">
+            </div>
+            <div class="avatar-img" align="center">
+                <img src="images/Rectangle.png" title="avatar">
+                <a class="avatar-camera" href="#" title="avarta">
+                    <i class="fas fa-camera"></i>
+                </a>
+            </div>
+            <div class="bumble-walker">
+                <p>BUMBLE WALKER</p>
+                <p style="margin-bottom: 15px">25/12/1992</p>
+            </div>
+            <div class="line" align="center">
+            </div>
+            <div class="infor">
+                <form action="" method="">
+                    <table>
+                        <caption></caption>
+                        <tbody>
+                            <tr>
+                                <td><b>Phone:</b></td>
+                                <td>0123456789</td>
+                            </tr>
+                            <tr>
+                                <td><b>Email:</b></td>
+                                <td>bumblebee@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td><b>Facebook:</b></td>
+                                <td>bumblebee</td>
+                            </tr>
+                            <tr>
+                                <td><b>Skype:</b></td>
+                                <td>bumblebee</td>
+                            </tr>
+                            <tr>
+                                <td><b>Chatwork:</b></td>
+                                <td>bumblebee</td>
+                            </tr>
+                            <tr>
+                                <td><b>Address:</b></td>
+                                <td>58  Tran Binh - Mai Dich - Cau Giay - Ha Noi</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div class="btn" align="center">
+                    <button class="btn-edit-profile">
+                        Edit Profile  
+                        <i class="fas fa-pen"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			</div>
-			<div class="ThongTin">
-				<form action="" method="get" accept-charset="utf-8">
-					<table align="center">
-						<caption></caption>
-						<tbody>
-							<tr>
-								<td>Phone: </td>
-								<td>0123456789</td>
-							</tr>
-							<tr>
-								<td>Email:</td>
-								<td>bumblebee@gmail.com</td>
-							</tr>
-							<tr>
-								<td>Facebook:</td>
-								<td>bumblebee</td>
-							</tr>
-							<tr>
-								<td>Skype:</td>
-								<td>bumblebee</td>
-							</tr>
-							<tr>
-								<td>Chatwork:</td>
-								<td>bumblebee</td>
-							</tr>
-							<tr>
-								<td>Address:</td>
-								<td>58  Tran Binh - Mai Dich - Cau Giay - Ha Noi</td>
-							</tr>
-						</tbody>
-					</table>
-				</form>
-				<div class="btn" align="center">
-					<input style="border: 1px solid red; padding: 8px 8px;margin-top: 15px;" type="submit" name="" value="Edit Profile">
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="professional">
+        <div class="professional-margin">
+            <h1>PROFESSIONAL SUMMARY</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol.</p>
+            <div class="btn-sumary" align="right">
+                <button id="btn-edit-sumary" class="btn-edit-sumary">Edit Summary  
+                    <i class="fas fa-pen"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 
-	<div class="PROFESSIONAL">
-		<div class="PROFESSIONAL-margin">
-			<h1>PROFESSIONAL SUMMARY</h1>
-			<p class="line2"></p>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dol.</p>
-			<input style="border: 1px solid red; padding: 8px 8px;margin-top: 8px;margin-left: 90%;" type="submit" name="" value="Edit Summary">
-		</div>
-	</div>
+    <div class="skills">
+        <div class="skills-margin">
+            <div class="skills-left">
+                <h1>PROFESSIONAL SKILLS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+                <div class="div-mazu">
+                    <div class="chart-mazu" style="float: left;">
+                        <div class="circle" style="" data-percentage="50">
+                            <svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9" r="15.9">
+                                </circle>
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="17.9" y="15.5"></text>
+                                </g>
+                            </svg>
+                            <span class="span-white-per-number">75%</span><br>
+                            <p class="span-white-per-text">HTML/CSS</p>
+                        </div>
+                        <div class="circle" style="" data-percentage="50">
+                            <svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="65,100" cx="16.9" cy="16.9" r="15.9">
+                                </circle>
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="17.9" y="15.5"></text>
+                                </g>
+                            </svg>
+                            <span class="span-white-per-number" style="">65%</span><br>
+                            <p class="span-white-per-text" style="">HTML/CSS</p>
+                        </div>
+                    </div>
+                    <div class="chart-mazu" style="float: left;">
+                        <div class="circle" style="" data-percentage="50">
+                            <svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="55,100" cx="16.9" cy="16.9" r="15.9">
+                                </circle>
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="17.9" y="15.5"></text>
+                                </g>
+                            </svg>
+                            <span class="span-white-per-number" style="">55%</span><br>
+                            <p class="span-white-per-text" style="">HTML/CSS</p>
+                        </div>
+                        <div class="circle" style="" data-percentage="50">
+                            <svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="45,100" cx="16.9" cy="16.9" r="15.9">
+                                </circle>
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="17.9" y="15.5"></text>
+                                </g>
+                            </svg>
+                            <span class="span-white-per-number">45%</span><br>
+                            <p class="span-white-per-text">HTML/CSS</p>
+                        </div>
+                    </div>
+                    <div class="chart-mazu" style="float: left;">
+                        <div class="circle circle-owari" style="" data-percentage="50">
+                            <svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9" r="15.9">
+                                </circle>
+                                <g class="circle-chart__info">
+                                    <text class="circle-chart__percent" x="17.9" y="15.5"></text>
+                                </g>
+                            </svg>
+                            <span class="span-white-per-number">75%</span><br>
+                            <p class="span-white-per-text">HTML/CSS</p>
+                        </div>
+                        <div class="btn-add-chart-skill" align="center" data-percentage="50">
+                            <button class="btn-add-chart-left" type="submit">Add Skills</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="page" align="center">
+                    <div class="clearfix">
+                        <div class="c100 p90 distance">
+                            <span>90%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                            <span class="slide-language" align="center">HTML/CSS</span>
+                        </div>
+                        <div class="c100 p75 distance">
+                            <span>75%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                            <span class="slide-language" align="center">C#,NET</span>
+                        </div>
+                        <div class="c100 p55 distance">
+                            <span>55%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                            <span class="slide-language" align="center">MYSQL</span>
+                        </div>
+                        <div class="c100 p55 distance">
+                            <span>55%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                            <span class="slide-language" align="center">PHP</span>
+                        </div>
+                        <div class="c100 p55 distance">
+                            <span>55%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                            <span class="slide-language" align="center">PHP</span>
+                        </div>
+                        <div class="btn-skill-add" align="center">
+                            <button class="btn-add-chart">Add Skills <i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+            <div class="skills-right" >
+                <h1>PERSONAL SKILLS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+                <div class="team-chart">TEAMWORK<br>
+                    <div class="team-chart-div">
+                        <div class="team-chart-div-one">
+                            <span class="span-team-chart">65%</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="team-chart">TEAMWORK<br>
+                    <div class="team-chart-div">
+                        <div class="team-chart-div-one">
+                            <span class="span-team-chart">65%</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="team-chart">TEAMWORK<br>
+                    <div class="team-chart-div">
+                        <div class="team-chart-div-one">
+                            <span class="span-team-chart">65%</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="btn-skill" align="right">
+                    <button class="btn-add-chart-right">Add Skills  
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="clearfix-one"></div>
+        </div>
+    </div>
 
-	<div class="Skills">
-		<div class="Skills-margin">
-			<div class="Skills-left">
-				<h1>Professional Skills</h1>
-				<p class="line2"></p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-				<!-- <div class="Skill-left-mazu">
-					<div class="Skill-left-mazu1 HTML">
-						
-					</div>
-				</div>
-				<p>HTML/CSS</p> -->
-				<div style="width: 50%; height: 50%; padding-bottom: 25px;" align="center">
-					<canvas id="myChartjs">
+<!--    <div class="experience">
+        <div class="experience-margin">
+            <div class="experience-margin-left">
+                <h1 class="white-line">WORK EXPERIENCE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                <div class="box">
+                    <div class="item">
+                        <h3>(2010 - 2019) ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                    </div>
+                    <div class="item">
+                        <h3>(2010 - 2019) ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                    </div>
+                    <div class="item">
+                        <h3>(2010 - 2019) ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                    </div>
+                </div>
+                <div class="btn" align="right">
+                    <button class="btn-add-experience">Add work experience  
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
 
-					</canvas>
-				</div>	
-			</div>
-			<div class="Skills-right">
-				<h1>Personal Skills</h1>
-				<p class="line2"></p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-				<p>TEAM WORK</p>
-				<div class="Skills-right-to">
-					<div class="skills teamW">80%</div>
-				</div>
-				<p>ENGLISH</p>
-				<div class="Skills-right-to">
-					<div class="skills teamW1">70%</div>
-				</div>
-				<p>JAPANESE</p>
-				<div class="Skills-right-to">
-					<div class="skills teamW2">60%</div>
-				</div>
-				<div class="Skills-right-btn">
-					<input style="border: 1px solid red; padding: 10px 10px;margin-top: 8px;float: right;" type="submit" name="AddSkill" value="Add Skill">
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+            <div class="education-margin-right">
+                <h1 class="white-line">EDUCATION</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                <div class="box">
+                    <div class="item">
+                        <h3>(2010 - 2019) ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                    </div>
+                    <div class="item">
+                        <h3>(2010 - 2019) ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                    </div>
+                    <div class="item">
+                        <h3>(2010 - 2019) ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                    </div>
+                </div>
+                <div class="btn" align="right">
+                    <button class="btn-add-experience">Add work experience  
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
 
-	<div class="EXPERIENCE" style="color: black">
-		<div class="EXPERIENCE-margin">
-			<div class="EXPERIENCE-margin-left">
-				<h2>WORK EXPERIENCE</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-				<div class="khoi">
-					<div class="item">
-						<h3>(2010 - 2019) ABC COMPANY</h3>
-						<p>Developer</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-					</div>
-					<div class="item">
-						<h3>(2010 - 2019) ABC COMPANY</h3>
-						<p>Developer</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-					</div>
-					<div class="item">
-						<h3>(2010 - 2019) ABC COMPANY</h3>
-						<p>Developer</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-					</div>
-					
-				</div>
-			</div>
-			<div class="EDUCATION-margin-right">
-				<h2>EDUCATION</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-				<div class="khoi">
-					<div class="item">
-						<h3>(2010 - 2019) ABC COMPANY</h3>
-						<p>Developer</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-					</div>
-					<div class="item">
-						<h3>(2010 - 2019) ABC COMPANY</h3>
-						<p>Developer</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-					</div>
-					<div class="item">
-						<h3>(2010 - 2019) ABC COMPANY</h3>
-						<p>Developer</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+            <div class="clearfix-one"></div>
+        </div>
+    </div> -->
 
-	<div class="portfolio addClasspor" style="background: #2F2FA1;">
-		<div class="portfolio-margin">
-			<h1 style="padding-top: 15px;">PORTFOLIO</h1>
-			<p style="width: 150px;border: 1px solid red;margin-top: -18px;"></p>
-			<div class="menu1">
-				<ul>
-					<li><a href="#">All</a></li>
-					<li><a href="#">FEATURED</a></li>
-					<li><a href="#">2019</a></li>
-					<li><a href="#">2018</a></li>
-					<li><a href="#">>></a></li>
-				</ul>
-			</div>
-			<div class="imageRow">
-				<div class="column">
-					<img src="images/paris.jpg" style="width:100%">
-					<img src="images/rocks.jpg" style="width:100%">
-				</div>
-				<div class="column">
-					<img src="images/rocks.jpg" style="width:100%">
-					<img src="images/paris.jpg" style="width:100%">
-				</div>
-				<div class="column">
-					<img src="images/paris.jpg" style="width:100%">
-					<img src="images/rocks.jpg" style="width:100%">
-				</div>
-				<div class="column">
-					<img src="images/paris.jpg" style="width:100%">
-					<img src="images/paris.jpg" style="width:100%">
-					<input style="border: 1px solid red; padding:10px; width: 139px;margin-top: 180px;margin-left: 150px;" type="submit" name="addPJ" value="Add Images">
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="experience" style="clear: both;">
+        <div class="experience-margin">
+            <div class="experience-margin-left">
+                <h1 class="white-line">WORK EXPERIENCE</h1>
+                <p class="uedesu">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                <div class="box-edu">
+                    <div class="item-edu">
+                        <h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                    </div>
+                    <div class="item-edu">
+                        <h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                    </div>
+                    <div class="item-edu">
+                        <h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                    </div>
+                </div>
+                <div class="btn" align="right">
+                    <button class="btn-add-experience">Add work experience  
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
 
-	<div class="portfolio">
-		<div class="portfolio-margin">
-			<h1 style="padding-top: 15px;">PORTFOLIO</h1>
-			<p style="width: 150px;border: 1px solid red;margin-top: -18px;"></p>
-			<div class="menu1">
-				<ul>
-					<li><a href="#">All</a></li>
-					<li><a href="#">FEATURED</a></li>
-					<li><a href="#">2019</a></li>
-					<li><a href="#">2018</a></li>
-					<li><a href="#">>></a></li>
-				</ul>
-			</div><br>
-			<br>
-			<div class="project">
-				<div class="project-skill">
-					<div class="project-skill-1 images1" style="background: #FD7038;" align="center">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<div class="project-skill-1 images1" align="center" style="background: #333333;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<div class="project-skill-1 images1" align="center" style="background: #F64C71;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-				</div>
-				<div class="project-skill">
-					<div class="project-skill-4 images2" align="center" style="background: #EECD10;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<div class="project-skill-1 images1" align="center" style="background: #333333;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-				</div>
-				<div class="project-skill">
-					<div class="project-skill-1 images1" align="center" style="background: #2F2FA1;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<div class="project-skill-4 images2" align="center" style="background: #EF5B5B;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-				</div>
-				<div class="project-skill">
-					<div class="project-skill-1 images1" align="center" style="background: #F64C71;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<div class="project-skill-1 images1" align="center" style="background: #F9BC2D;">
-						<img src="images/project-black.jpg" alt="">
-					</div>
-					<input style="border: 1px solid red; padding:10px; width: 139px;margin-top: 70px;margin-left: 90px;" type="submit" name="addPJ" value="Add Project">
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+            <div class="education-margin-right">
+                <h1 class="white-line">EDUCATION</h1>
+                <p class="uedesuhai">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                <!--  -->
+                <div class="box-edu">
+                    <div class="item-edu">
+                        <h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                    </div>
+                    <div class="item-edu">
+                        <h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                    </div>
+                    <div class="item-edu">
+                        <h3><u>(2010 - 2019)</u> ABC COMPANY</h3>
+                        <p>Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
+                    </div>
+                </div>
+                <div class="btn" align="right">
+                    <button class="btn-add-experience-add">Add work experience  
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
 
-	<div class="references">
-		<div class="references-margin">
-			<h1 style="padding-top: 15px;">REFERENCES</h1>
-			<p style="width: 150px;border: 1px solid red;margin-top: -18px;"></p>
+            <div class="clearfix-one"></div>
+        </div>
+    </div>
 
-			<div class="owl-carousel owl-theme" id="slide11111111">
-				<div>
-					<div class="DD-tron flo flo1" align="center">
-						<img src="images/avatar-ref.jpg" title="avatar">
-					</div>
-					<div class="VBtext flo flo2">
-						<p style="text-align: justify;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse..."
-						</p>
-					</div>
-				</div>
-				<div>
-					<div class="DD-tron flo flo1" align="center">
-						<img src="images/avatar-ref.jpg" title="avatar">
-					</div>
-					<div class="VBtext flo flo2">
-						<p style="text-align: justify;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse..."
-						</p>
-					</div>
-				</div>
-				<div>
-					<div class="DD-tron flo flo1" align="center">
-						<img src="images/avatar-ref.jpg" title="avatar">
-					</div>
-					<div class="VBtext flo flo2">
-						<p style="text-align: justify;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse..."
-						</p>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<div class="footer">
-		<p> 2019 Flatos.com All right reserved.</p>
-	</div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-	<script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$("#slide11111111").owlCarousel({
-				loop: true,
-				items: 1
-			});
-		});
-	</script>
+    <!-- <div class="portfolio addClasspor" style="background: #2F2FA1;">
+        <div class="portfolio-margin">
+            <h1 style="padding-top: 15px;">PORTFOLIO</h1>
+            <div class="menu1">
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">FEATURED</a></li>
+                    <li><a href="#">2019</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">>></a></li>
+                </ul>
+            </div>
+            <div class="imageRow">
+                <div class="column">
+                    <img src="images/paris.jpg" style="width:100%">
+                    <img src="images/rocks.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/rocks.jpg" style="width:100%">
+                    <img src="images/paris.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/paris.jpg" style="width:100%">
+                    <img src="images/rocks.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/paris.jpg" style="width:100%">
+                    <img src="images/paris.jpg" style="width:100%">
+                    <div class="btn" align="center">
+                        <button class="addImg">Add Images  <i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="portfolio">
+        <div class="portfolio-margin">
+            <h1>WORD PORTFOLIO</h1>
+            <div class="menu1">
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">FEATURED</a></li>
+                    <li><a href="#">2019</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#"> >> </a></li>
+                </ul>
+            </div><br>
+            <br>
+            <div class="project">
+                <div class="project-skill">
+                    <div class="project-skill-1 images1" style="background: #FD7038;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="project-skill-1 images1" align="center" style="background: #333333;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="project-skill-1 images1" align="center" style="background: #F64C71;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                </div>
+                <div class="project-skill">
+                    <div class="project-skill-4 images2" align="center" style="background: #EECD10;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="project-skill-1 images1" align="center" style="background: #333333;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                </div>
+                <div class="project-skill">
+                    <div class="project-skill-1 images1" align="center" style="background: #2F2FA1;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="project-skill-4 images2" align="center" style="background: #EF5B5B;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                </div>
+                <div class="project-skill">
+                    <div class="project-skill-1 images1" align="center" style="background: #F64C71;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="project-skill-1 images1" align="center" style="background: #F9BC2D;">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <button class="addProject">Add Project  <i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="clearfix-one"></div>
+        </div>
+    </div> -->
+
+    <div class="portfolio">
+        <div class="portfolio-margin">
+            <h1>WORD PORTFOLIO</h1>
+            <div class="menu-portfolio">
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">FEATURED</a></li>
+                    <li><a href="#">2019</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#"> >> </a></li>
+                </ul>
+            </div><br>
+            <br>
+            <div class="folder">
+                <div class="folder-margin">
+                    <div class="folder-margin-img" style="background: #FD7038;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="folder-margin-img" style="background: #333333;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="folder-margin-img" style="background: #F64C71;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                </div>
+                <div class="folder-margin">
+                    <div class="folder-margin-imgg" style="background: #EECD10;" align="center">
+                        <img class="imgg" src="images/project-black.jpg" alt="">
+                    </div>
+                    
+                    <div class="folder-margin-img" style="background: #333333;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                </div>
+                <div class="folder-margin">
+                    <div class="folder-margin-img" style="background: #2F2FA1;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="folder-margin-imgg" style="background: #EF5B5B;" align="center">
+                        <img class="imgg" src="images/project-black.jpg" alt="">
+                    </div>  
+                </div>
+                <div class="folder-margin">
+                    <div class="folder-margin-img" style="background: #F64C71;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                    <div class="folder-margin-img" style="background: #F9BC2D;" align="center">
+                        <img src="images/project-black.jpg" alt="">
+                    </div>
+                </div>
+                <button class="btn-add-pj" align="center"> Add Project  
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+            <div class="clearfix-one"></div>
+        </div>
+    </div>
+
+    <div class="references">
+        <div class="references-margin">
+            <h1>REFERENCES RENCES</h1>
+            <div class="slide">
+                <div class="references-margin">
+                    <div class="references-margin-avarta" align="center">
+                        <img src="images/Rectangle.png" alt="">
+                    </div>
+                    <div class="references-margin-text">
+                        <span class="references-relative">“</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ... 
+                            <span class="references-absolute">”</span>
+                        </p>
+                    </div>
+                    <div class="icon-check">
+                        <ul>
+                            <li><button type="submit"></button></li>
+                            <li><button type="submit"></button></li>
+                            <li><button type="submit"></button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-prev">
+                    <
+                </div>
+                <div class="btn-next">
+                    >
+                </button>
+            </div>
+            <div class="btn-add-refer" align="center">
+                <button class="add-references"> Add References  <i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="clearfix-one"></div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>2019 Flatos.com All right reserved</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="owl.carousel.js" type="text/javascript" charset="utf-8"></script>
+<!-- <script type="text/javascript">
+    $(document).ready(function(){
+        $("#slide11111111").owlCarousel({
+            loop: true,
+            items: 1
+        });
+    });
+</script> -->
 </body>
 </html>
